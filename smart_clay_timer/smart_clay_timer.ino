@@ -1,92 +1,118 @@
 #include <Adafruit_MLX90640.h>
+#include <Adafruit_NeoPixel.h>
+#include <math.h>
+#include <map>
 
-Adafruit_MLX90640 mlx;
+//Define pins
+#define LEDPin 12
+#define trigPin 15
+#define echoPin 13
+
+//Neopixel setup
+#define NUMPIXELS 8
+Adafruit_NeoPixel pixels(NUMPIXELS, LEDPin);
+uint32_t yellow = pixels.Color(20, 20, 0);
+uint32_t green = pixels.Color(0, 40, 0);
+
+//Thermal camera setup
+Adafruit_MLX90640 mlx; 
 float frame[32*24]; // buffer for full frame of temperatures
 
-// uncomment *one* of the below
-//#define PRINT_TEMPERATURES
-#define PRINT_ASCIIART
+//Time delay setup
+long lasttime = millis();
+long now = millis();
+bool status = false;
 
 void setup() {
-  //while (!Serial) delay(10);
   Serial.begin(115200);
   delay(5000);
 
   Serial.println("Adafruit MLX90640 Simple Test");
   if (! mlx.begin(MLX90640_I2CADDR_DEFAULT, &Wire)) {
     Serial.println("MLX90640 not found!");
-    while (1) delay(10);
   }
-  Serial.println("Found Adafruit MLX90640");
-
-  Serial.print("Serial number: ");
-  Serial.print(mlx.serialNumber[0], HEX);
-  Serial.print(mlx.serialNumber[1], HEX);
-  Serial.println(mlx.serialNumber[2], HEX);
   
-  //mlx.setMode(MLX90640_INTERLEAVED);
+  
+  //Thermal camera settings
   mlx.setMode(MLX90640_CHESS);
-  Serial.print("Current mode: ");
-  if (mlx.getMode() == MLX90640_CHESS) {
-    Serial.println("Chess");
-  } else {
-    Serial.println("Interleave");    
-  }
-
   mlx.setResolution(MLX90640_ADC_18BIT);
-  Serial.print("Current resolution: ");
-  mlx90640_resolution_t res = mlx.getResolution();
-  switch (res) {
-    case MLX90640_ADC_16BIT: Serial.println("16 bit"); break;
-    case MLX90640_ADC_17BIT: Serial.println("17 bit"); break;
-    case MLX90640_ADC_18BIT: Serial.println("18 bit"); break;
-    case MLX90640_ADC_19BIT: Serial.println("19 bit"); break;
-  }
-
   mlx.setRefreshRate(MLX90640_2_HZ);
-  Serial.print("Current frame rate: ");
-  mlx90640_refreshrate_t rate = mlx.getRefreshRate();
-  switch (rate) {
-    case MLX90640_0_5_HZ: Serial.println("0.5 Hz"); break;
-    case MLX90640_1_HZ: Serial.println("1 Hz"); break; 
-    case MLX90640_2_HZ: Serial.println("2 Hz"); break;
-    case MLX90640_4_HZ: Serial.println("4 Hz"); break;
-    case MLX90640_8_HZ: Serial.println("8 Hz"); break;
-    case MLX90640_16_HZ: Serial.println("16 Hz"); break;
-    case MLX90640_32_HZ: Serial.println("32 Hz"); break;
-    case MLX90640_64_HZ: Serial.println("64 Hz"); break;
-  }
+
+  pinMode(trigPin, OUTPUT);
+  pinMode(echoPin, INPUT);
+  pixels.begin();
 }
 
 void loop() {
   delay(500);
+  pixels.clear();
+
+  // Clear trigPin
+  digitalWrite(trigPin, LOW);
+  delayMicroseconds(10); 
+
+  // Set trigPin on HIGH for 10 microsecs
+  digitalWrite(trigPin, HIGH);
+  delayMicroseconds(10);
+  digitalWrite(trigPin, LOW);
+
+  // Read echoPin
+  long duration = pulseIn(echoPin, HIGH);
+  float distance = 34400*duration/2000000;
+
+  Serial.print("Distance: ");
+  Serial.println(distance);
+
+  // Conditional, only start (and continue) taking readings if an object is in front for longer than 5s
+  if (distance <= 15 && !status){
+    pixels.fill(yellow, 0, 8);
+    pixels.show();
+    delay(250);
+    pixels.clear();
+    pixels.show();
+    now = millis();
+    if (now - lasttime > 5000){
+      status = true;
+    }
+  }
+  else if (distance <= 15 && status){
+    readTemp();
+  }
+
+  else{
+    pixels.clear();
+    pixels.show();
+    status = false;
+    lasttime = millis();
+  }
+
   if (mlx.getFrame(frame) != 0) {
     Serial.println("Failed");
     return;
   }
-  Serial.println();
-  Serial.println();
+}
+
+void readTemp() {
+  std::map<int, int> histogram; //Create histogram map for counting unique temperature values
+  int mode_count = 0;
+
   for (uint8_t h=0; h<24; h++) {
     for (uint8_t w=0; w<32; w++) {
       float t = frame[h*32 + w];
-#ifdef PRINT_TEMPERATURES
-      Serial.print(t, 1);
-      Serial.print(", ");
-#endif
-#ifdef PRINT_ASCIIART
-      char c = '&';
-      if (t < 20) c = ' ';
-      else if (t < 23) c = '.';
-      else if (t < 25) c = '-';
-      else if (t < 27) c = '*';
-      else if (t < 29) c = '+';
-      else if (t < 31) c = 'x';
-      else if (t < 33) c = '%';
-      else if (t < 35) c = '#';
-      else if (t < 37) c = 'X';
-      Serial.print(c);
-#endif
+      int T = round(t);
+
+      histogram[T]++; //increment element(temperature reading) count
+      mode_count = std::max(mode_count, histogram[T]);
     }
-    Serial.println();
+  }
+  // Retrieve the mode(s) 
+  for (auto T: histogram){
+    if (T.second == mode_count) {
+      int i = map(T.first, 15, 30, 0, 8);
+      pixels.fill(green, 0, i);
+      pixels.show();
+      Serial.print("The mode temperature is: ");
+      Serial.println(T.first);
+    }
   }
 }
