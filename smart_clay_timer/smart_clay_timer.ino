@@ -1,27 +1,40 @@
 #include <Adafruit_MLX90640.h>
 #include <Adafruit_NeoPixel.h>
 #include <math.h>
+#include <ezTime.h>
 #include <map>
+#include <DHT.h>
+#include <DHT_U.h>
+
+#define DHTTYPE DHT22
 
 //Define pins
 #define LEDPin 12
 #define trigPin 15
 #define echoPin 13
+#define DHTPin 2
+
+// DHT Sensor setup
+DHT dht(DHTPin, DHTTYPE); // Initialize DHT sensor
 
 //Neopixel setup
 #define NUMPIXELS 8
 Adafruit_NeoPixel pixels(NUMPIXELS, LEDPin);
 uint32_t yellow = pixels.Color(20, 20, 0);
 uint32_t green = pixels.Color(0, 40, 0);
+uint32_t red = pixels.Color(40, 0, 0);
+uint32_t orange = pixels.Color(30, 10, 0);
 
 //Thermal camera setup
 Adafruit_MLX90640 mlx; 
 float frame[32*24]; // buffer for full frame of temperatures
 
 //Time delay setup
-long lasttime = millis();
-long now = millis();
 bool status = false;
+long t_now = millis();
+long t_last = millis();
+long t_now2 = millis();
+long t_last2 = millis();
 
 void setup() {
   Serial.begin(115200);
@@ -32,6 +45,9 @@ void setup() {
     Serial.println("MLX90640 not found!");
   }
   
+  // start DHT sensor
+  pinMode(DHTPin, INPUT);
+  dht.begin();
   
   //Thermal camera settings
   mlx.setMode(MLX90640_CHESS);
@@ -70,8 +86,8 @@ void loop() {
     delay(250);
     pixels.clear();
     pixels.show();
-    now = millis();
-    if (now - lasttime > 5000){
+    t_now = millis();
+    if (t_now - t_last > 5000){
       status = true;
     }
   }
@@ -83,7 +99,7 @@ void loop() {
     pixels.clear();
     pixels.show();
     status = false;
-    lasttime = millis();
+    t_last = millis();
   }
 
   if (mlx.getFrame(frame) != 0) {
@@ -109,10 +125,37 @@ void readTemp() {
   for (auto T: histogram){
     if (T.second == mode_count) {
       int i = map(T.first, 15, 30, 0, 8);
-      pixels.fill(green, 0, i);
-      pixels.show();
+
+      if (i >= 0 && i < 3){
+        pixels.fill(red, 0, i);
+        pixels.show();
+      }
+
+      else if (i >= 3 && i < 5){
+        pixels.fill(orange, 0, i);
+        pixels.show();
+      }
+
+      else if (i >= 5 && i < 7){
+        pixels.fill(yellow, 0, i);
+        pixels.show();
+      }
+
+      else {
+        pixels.fill(green, 0, i);
+        pixels.show();
+      }
+
       Serial.print("The mode temperature is: ");
-      Serial.println(T.first);
+      Serial.println(T.first);      
     }
+  }
+  t_now2 = millis();
+  if (t_now2 - t_last2 > 20000) {
+    Serial.print("Temp: ");
+    Serial.println(dht.readTemperature());
+    Serial.print("Hum: ");
+    Serial.println(dht.readHumidity());
+    t_last2 = millis();
   }
 }
