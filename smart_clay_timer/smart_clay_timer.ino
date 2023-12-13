@@ -245,7 +245,7 @@ String SendHTML(float AmbTemp, float ClayTemp, float Hum, int PercDry) {
   ptr += "<body>\n";
   ptr += "<div id=\"webpage\">\n";
   ptr += "<h1>Pottery Progress</h1>\n";
-  ptr += "<img src=\"https://raw.githubusercontent.com/ethmacc/CASA0016_smart_clay_timer/main/pot_drawing.png\" width=\"300\">\n";
+  ptr += "<img src=\"https://github.com/ethmacc/CASA0016_smart_clay_timer/blob/main/pot_drawing.png?raw=true\" width=\"300\">\n";
 
   ptr += "<p>Air Temperature: ";
   ptr += (int)AmbTemp;
