@@ -5,6 +5,8 @@
 #include <map>
 #include <DHT.h>
 #include <DHT_U.h>
+#include <ESP8266WiFiMulti.h>
+#include <ESP8266WebServer.h>
 
 #define DHTTYPE DHT22
 
@@ -18,6 +20,9 @@
 DHT dht(DHTPin, DHTTYPE); // Initialize DHT sensor
 float temp;
 float hum;
+
+float perc_dry = 0;
+float clay_temp = 0;
 
 //Neopixel setup
 #define NUMPIXELS 8
@@ -39,6 +44,19 @@ long t_last = millis();
 long t_now2 = millis();
 long t_last2 = millis();
 
+//WiFi
+#include "arduino_secrets.h"
+const char* ssid = SECRET_SSID;
+const char* password = SECRET_PASS;
+const char* ssid2 = SECRET_SSID2;
+const char* password2 = SECRET_PASS2;
+
+// Construct WiFi client instances
+ESP8266WebServer server(80);
+
+ESP8266WiFiMulti wifiMulti;
+const uint32_t connectTimeout = 5000;
+
 void setup() {
   Serial.begin(115200);
   delay(5000);
@@ -53,6 +71,10 @@ void setup() {
   dht.begin();
   temp = dht.readTemperature();
   hum = dht.readHumidity();
+
+  //Start WiFi and server
+  startWifi();
+  startWebserver();
   
   //Thermal camera settings
   mlx.setMode(MLX90640_CHESS);
@@ -65,6 +87,7 @@ void setup() {
 }
 
 void loop() {
+  server.handleClient();
   delay(500);
   pixels.clear();
 
@@ -128,7 +151,7 @@ void readTemp() {
   }
 
   t_now2 = millis();
-  if (t_now2 - t_last2 > 20000) {
+  if (t_now2 - t_last2 > 10000) {
     temp = dht.readTemperature();
     hum = dht.readHumidity(); 
     Serial.print("Temp: ");
@@ -153,10 +176,11 @@ void readTemp() {
     // Retrieve the mode(s) 
   for (auto T: histogram){
     if (T.second == mode_count) {
+      clay_temp = T.first;
       int T_constrain = constrain(T.first, 18, 24);
+      perc_dry = (T_constrain - 18.0) / 6.0 * 100;
+      Serial.println(perc_dry);
       int i = map(T_constrain, 18, 24, 1, 8);
-      Serial.println(i);
-      Serial.println(T_constrain);
 
       pixels.fill(colour, 0, i);
       pixels.show();
@@ -165,4 +189,78 @@ void readTemp() {
       Serial.println(T.first);      
     }
   }
+}
+
+void startWifi() {
+
+  // Ensure wifi is in station mode not ap mode
+  WiFi.mode(WIFI_STA);
+
+  //Register multiple networks
+  wifiMulti.addAP(ssid, password);
+  wifiMulti.addAP(ssid2, password2);
+
+  // check to see if connected and wait until you are
+  while (wifiMulti.run(connectTimeout) != WL_CONNECTED) {
+    delay(500);
+    Serial.println("WiFi not connected!");
+    Serial.println("Attempting connection to any known networks...");
+  }
+  Serial.println("");
+  Serial.println("WiFi connected");
+  Serial.print("IP address: ");
+  Serial.println(WiFi.localIP());
+}
+
+void startWebserver() {
+  // when connected and IP address obtained start HTTP server
+  server.on("/", handle_OnConnect);
+  server.onNotFound(handle_NotFound);
+  server.begin();
+  Serial.println("HTTP server started");
+}
+
+// Send HTML to server
+void handle_OnConnect() {
+  server.send(200, "text/html", SendHTML(temp, clay_temp, hum, perc_dry));
+}
+
+// Handle webpage not found error
+void handle_NotFound() {
+  server.send(404, "text/plain", "Not Found");
+}
+
+// Format HTML with plant data as a single long string to be hosted online
+String SendHTML(float AmbTemp, float ClayTemp, float Hum, int PercDry) {
+  String ptr = "<!DOCTYPE html> <html>\n";
+  ptr += "<head><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=no\" >\n";
+  ptr += "<link href=\"https://fonts.googleapis.com/css?family=Silkscreen:400\" rel=\"stylesheet\">\n";
+  ptr += "<meta http-equiv=\"refresh\" content=\"10\" >\n";
+  ptr += "<title>Pottery Progress</title>\n";
+  ptr += "<style>html { font-family: Silkscreen; display: inline-block; margin: 0px auto; text-align center;}\n";
+  ptr += "body{margin-top: 50px;} h1 {color: #444444;margin: 50px auto 30px;}\n";
+  ptr += "p {font-size: 24px;color: #444444;margin-bottom: 10px;}\n";
+  ptr += "</style>\n";
+  ptr += "</head>\n";
+  ptr += "<body>\n";
+  ptr += "<div id=\"webpage\">\n";
+  ptr += "<h1>Pottery Progress</h1>\n";
+
+  ptr += "<p>Air Temperature: ";
+  ptr += (int)AmbTemp;
+  ptr += " C</p>";
+  ptr += "<p>Humidity: ";
+  ptr += (int)Hum;
+  ptr += "%</p>";
+  ptr += "<p>Clay Temperature: ";
+  ptr += (int)ClayTemp;
+  ptr += " C</p>";
+  ptr += "<p>Your clay is ";
+  ptr += PercDry;
+  ptr += " % dry</p>";
+
+  ptr += "</div>\n";
+  ptr += "</body>\n";
+  ptr += "</html>\n";
+  return ptr;
 }
