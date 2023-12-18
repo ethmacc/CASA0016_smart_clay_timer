@@ -71,7 +71,7 @@ A PCB or maker strip board was considered essential to the project as the final 
 
 ![IMG_6621](https://github.com/ethmacc/CASA0016_smart_clay_timer/assets/60006290/c670622b-afc2-4fd6-87d4-5d68f26da965)
 
-_The copper side of the strip board showing the pattern created by breaking the copper channels _
+_The copper side of the strip board showing the pattern created by breaking the copper channels_
 
 ![IMG_6624](https://github.com/ethmacc/CASA0016_smart_clay_timer/assets/60006290/45e6d16f-c744-4ba2-8627-0867a37a305b)
 
