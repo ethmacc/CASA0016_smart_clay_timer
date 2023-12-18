@@ -13,7 +13,7 @@ The following hardware was used in this project:
 - **DHT22** temperature and humidity sensor
 - **Adafruit Neopixel stick** (with 8 LEDs)
 - **Copper wires** (in black, red, etc. sleeves)
-- 3 10k **Ohm resistors**
+- 3 **10k Ohm resistors**
 
 ### Dependencies
 The following dependencies must be installed for this project to work:
