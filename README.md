@@ -85,13 +85,13 @@ The enclosure was based off a simple box design generated using the MakerCase we
 
 ![IMG_6629](https://github.com/ethmacc/CASA0016_smart_clay_timer/assets/60006290/1e3b3046-d373-4fd8-bcec-70253299c321)
 
+_The rear, side and bottom faces of the enclosure were to form a single piece, so these were glue together with Gorilla wood glue_
+
 The openings for the various sensors were measured and drawn into the .dxf file using Fusion360. The .dxf file was then used to lasercut 3mm plywood to make the box. Where errors were made, more precise measurements were taken with a pair of vernier calipers and used to correct the drawings.
 
 ![IMG_6648](https://github.com/ethmacc/CASA0016_smart_clay_timer/assets/60006290/1d0b83af-2656-45d1-b8ad-90b68dab840f)
 
 _Discarded plywood pieces of the enclosure with hand-written markings showing corrections to be made for the next cut_
-
-
 
 To secure the ultrasonic sensor and the Neopixel strip to the enclosure body, 2M screws and nuts were used. The SR04 has holes that are sufficiently tight that nuts will probably not be necessary to hold it securely if 2M screws are used.
 
