@@ -34,11 +34,15 @@ The ultrasonic sensor and Neopixel LED strip require a 5V circuit to be powered,
 
 ![IMG_6621](https://github.com/ethmacc/CASA0016_smart_clay_timer/assets/60006290/c670622b-afc2-4fd6-87d4-5d68f26da965)
 
-![IMG_6623](https://github.com/ethmacc/CASA0016_smart_clay_timer/assets/60006290/421d24ee-8ac0-4806-bd0d-896d4aa405b5)
+![IMG_6624](https://github.com/ethmacc/CASA0016_smart_clay_timer/assets/60006290/45e6d16f-c744-4ba2-8627-0867a37a305b)
 
-![IMG_6625](https://github.com/ethmacc/CASA0016_smart_clay_timer/assets/60006290/be4fb724-67ee-430d-a5d5-ed11bed6c87a)
+![IMG_6631](https://github.com/ethmacc/CASA0016_smart_clay_timer/assets/60006290/542c5e1c-0caa-4eaf-976d-3aee22248199)
+
+![IMG_6630](https://github.com/ethmacc/CASA0016_smart_clay_timer/assets/60006290/c246ca08-078d-48ed-b230-d804779aac5a)
+
+
 
 ## Enclosure
 
-![IMG_6629](https://github.com/ethmacc/CASA0016_smart_clay_timer/assets/60006290/8bb6bd50-4003-4955-8bff-6630e43946db)
+![IMG_6629](https://github.com/ethmacc/CASA0016_smart_clay_timer/assets/60006290/1e3b3046-d373-4fd8-bcec-70253299c321)
 
