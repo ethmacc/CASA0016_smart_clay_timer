@@ -59,7 +59,7 @@ The MLX90640 thermal camera forms the heart of the device and this project and t
 
 ![IMG_6653](https://github.com/ethmacc/CASA0016_smart_clay_timer/assets/60006290/8a6f5c18-c659-4766-9eba-0bf0f43c048a)
 
-_Ascii character art from the infrared camera - a human hand is warm so it shows up very easily_
+_Ascii character art from the infrared camera - a human hand is warm so it shows up very easily. Note that the camera is upside down inside the device!_
 
 By commenting out the ```#define PRINT_ASCIIART``` line and uncommenting the ```#define PRINT_TEMPERATURES``` line, it is also possible to get the raw temperature values output as floating point numbers rather than ascii characters.
 
