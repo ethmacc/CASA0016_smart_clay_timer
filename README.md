@@ -67,7 +67,7 @@ _Testing the device with a cold and moist object such as a glass of water straig
 
 ## Prototyping the board
 
-A PCB or maker strip board was considered essential to the project as the final device was envisioned to be quite small and compact as a potential consumer product. To achieve this, the mess of wires and the breadboard had to be miniaturised to fit into a relatively small enclosure. The most reasonable way to prototype this is to use a strip board, which has copper connections running in parallel strips along a board. New connections can be made by soldering wires from one strip to another and individual lengths of each strip can also be isolated by breaking the copper channel using a drill bit in a pin vise or another similar tool:
+A PCB or maker strip board was considered essential to the project as the final device was envisioned to be quite small and compact as a potential consumer product. To achieve this, the mess of wires and the breadboard had to be miniaturised to fit into a relatively small enclosure. The most reasonable way to prototype this is to use a strip board, which has copper connections running in parallel strips along a board. New connections can be made by soldering wires from one strip to another and individual lengths of each strip can also be isolated by breaking the copper channel using a drill bit in a pin vise or another similar tool. In the image below for example, the pins on each side of the Feather Huzzah are isolated from each other using this technique:
 
 ![IMG_6621](https://github.com/ethmacc/CASA0016_smart_clay_timer/assets/60006290/c670622b-afc2-4fd6-87d4-5d68f26da965)
 
@@ -89,9 +89,13 @@ To secure the ultrasonic sensor and the Neopixel strip to the enclosure, 2M scre
 
 ## Visualizing Data
 
-### Using the ESP8266 to serve a webpage
+### Using the ESP8266 to host a webpage
+
+The ESP8266 can be set up as a server to host a simple webpage (https://lastminuteengineers.com/esp8266-dht11-dht22-web-server-tutorial/).
 
 <img height="500" alt="ESP8266 webpage" src="https://github.com/ethmacc/CASA0016_smart_clay_timer/assets/60006290/51db1c8b-e9ad-4b48-aa8c-53d2612b09ee">
+
+The HTML code for the webpage can be found in the main arduino file itself:
 
 ```
 String ptr = "<!DOCTYPE html> <html>\n";
@@ -126,6 +130,7 @@ ptr += "</div>\n";
 ptr += "</body>\n";
 ptr += "</html>\n";
 ```
+The Google fonts website (https://fonts.google.com/) was linked into the HTML file to provide the Silkscreen font, which felt like it would work well visually with the robot face formed by the sensor ports in the front face of the enclosure. To provide some illustration and visual interest, a simple drawing of a pot, drawn by the author, was also embedded in the webpage.
 
 ### Reading the lights
 
