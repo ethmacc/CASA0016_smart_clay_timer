@@ -15,7 +15,7 @@ _Inital concept sketch. Note the differences in final colours used and the origi
 The following hardware was used in this project:
 - **Adafruit Feather Huzzah** (or similar ESP8266-based board)
 - **SR04** Ultrasonic distance sensor / range finder
-- **MLX90640 thermal camera** (Pimoroni or similar with integrated surface-mount voltage regulation components)
+- **MLX90640 Infrared Thermal Camera** (Pimoroni or similar with integrated surface-mount voltage regulation components)
 - **DHT22** temperature and humidity sensor
 - **Adafruit Neopixel stick** (with 8 LEDs)
 - **Copper wires** (in black, red, etc. sleeves)
@@ -55,13 +55,21 @@ The Arduino built-in, DHT sensor and Adafruit MLX90640 libraries provide useful 
 
 For the DHT22 sensor, the ```DHT_Unified_Sensor``` exmple sketch provides a great overview of how to define and instantiate a DHT sensor object and then take regular readings from the sensor, which should be fairly straightfoward.
 
-The MLX90640 thermal camera forms the heart of the device and this project and therefore is worth experimenting with in a bit further detail. Adafruit provide the ```MLX90640_simpletest``` example sketch, which provides a nice and simple way to test and visualise outputs from the camera. 
+The MLX90640 thermal camera forms the heart of the device and this project and therefore is worth experimenting with in a bit further detail. Adafruit provide the ```MLX90640_simpletest``` example sketch, which provides a nice and simple way to test and visualise outputs from the camera. The script shows how to set up the camera to read infrared values and output these in the format of an array. These values are then visualised in the serial monitor using ascii characters:
+
+![IMG_6653](https://github.com/ethmacc/CASA0016_smart_clay_timer/assets/60006290/8a6f5c18-c659-4766-9eba-0bf0f43c048a)
+
+_Ascii character art from the infrared camera - a human hand is warm so it shows up very easily_
+
+By commenting out the ```#define PRINT_ASCIIART``` line and uncommenting the ```#define PRINT_TEMPERATURES``` line, it is also possible to get the raw temperature values output as floating point numbers rather than ascii characters.
 
 ### Testing with real objects
 
 ![IMG_6636](https://github.com/ethmacc/CASA0016_smart_clay_timer/assets/60006290/5c0705c4-bb31-4a7b-be17-ee3b48bb2714)
 
 _Testing the device with a cold and moist object such as a glass of water straight from the tap_
+
+Calibrating this project to wet and dry clay required testing with a variety of objects to get a feel for how the temperatures of wet and dry objects might differ. Cold water in a glass was one such object and it was found that, the glass itself was almost always one or two degrees warmer than the water within it. More relevant to the project however, it was also found that bone-dry clay almost always had temperature readings around room temperature.
 
 ### Software
 
