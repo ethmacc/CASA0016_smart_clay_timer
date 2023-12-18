@@ -61,7 +61,7 @@ The disadvantage of taking such an approach with the Feather Huzzah
 
 ### Using the ESP8266 to serve a webpage
 
-<img height="200" alt="ESP8266 webpage" src="https://github.com/ethmacc/CASA0016_smart_clay_timer/assets/60006290/51db1c8b-e9ad-4b48-aa8c-53d2612b09ee">
+<img height="500" alt="ESP8266 webpage" src="https://github.com/ethmacc/CASA0016_smart_clay_timer/assets/60006290/51db1c8b-e9ad-4b48-aa8c-53d2612b09ee">
 
 ## Future implementations
 
