@@ -61,7 +61,7 @@ void setup() {
   Serial.begin(115200);
   delay(5000);
 
-  Serial.println("Adafruit MLX90640 Simple Test");
+  Serial.println("MLX90640 Smart Clay Timer");
   if (! mlx.begin(MLX90640_I2CADDR_DEFAULT, &Wire)) {
     Serial.println("MLX90640 not found!");
   }
@@ -143,7 +143,7 @@ void readTemp() {
   for (uint8_t h=0; h<24; h++) {
     for (uint8_t w=0; w<32; w++) {
       float t = frame[h*32 + w];
-      int T = round(t);
+      int T = round(t*2); // multiply by two to maintain some granularity (to nearest .5) after rounding
 
       histogram[T]++; //increment element(temperature reading) count
       mode_count = std::max(mode_count, histogram[T]);
@@ -161,7 +161,7 @@ void readTemp() {
     t_last2 = millis();
   }
 
-  if (hum < 20){
+  if (hum < 20){ 
     colour = orange;
   }
 
@@ -176,17 +176,17 @@ void readTemp() {
     // Retrieve the mode(s) 
   for (auto T: histogram){
     if (T.second == mode_count) {
-      clay_temp = T.first;
-      int T_constrain = constrain(T.first, 18, 24);
-      perc_dry = (T_constrain - 18.0) / 6.0 * 100;
-      Serial.println(perc_dry);
-      int i = map(T_constrain, 18, 24, 1, 8);
+      clay_temp = T.first/2; 
+
+      int T_constrain = constrain(T.first, round((temp-6)*2), round(temp*2) );
+      perc_dry = (T_constrain - round(temp - 6) * 2) / 12 * 100;
+      int i = map(T_constrain, round((temp-6)*2), round(temp*2), 1, 8);
 
       pixels.fill(colour, 0, i);
       pixels.show();
 
       Serial.print("The mode temperature is: ");
-      Serial.println(T.first);      
+      Serial.println(T.first/2);      
     }
   }
 }
