@@ -93,6 +93,40 @@ To secure the ultrasonic sensor and the Neopixel strip to the enclosure, 2M scre
 
 <img height="500" alt="ESP8266 webpage" src="https://github.com/ethmacc/CASA0016_smart_clay_timer/assets/60006290/51db1c8b-e9ad-4b48-aa8c-53d2612b09ee">
 
+```
+String ptr = "<!DOCTYPE html> <html>\n";
+ptr += "<head><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=no\" >\n";
+ptr += "<link href=\"https://fonts.googleapis.com/css?family=Silkscreen:400\" rel=\"stylesheet\">\n";
+ptr += "<meta http-equiv=\"refresh\" content=\"10\" >\n";
+ptr += "<title>Pottery Progress</title>\n";
+ptr += "<style>html { font-family: Silkscreen; display: inline-block; margin: 0px auto; text-align center;}\n";
+ptr += "body{margin-top: 50px;} h1 {color: #444444;margin: 50px auto 30px;}\n";
+ptr += "p {font-size: 24px;color: #444444;margin-bottom: 10px;}\n";
+ptr += "</style>\n";
+ptr += "</head>\n";
+ptr += "<body>\n";
+ptr += "<div id=\"webpage\">\n";
+ptr += "<h1>Pottery Progress</h1>\n";
+ptr += "<img src=\"https://github.com/ethmacc/CASA0016_smart_clay_timer/blob/main/pot_drawing.png?raw=true\" width=\"300\">\n";
+
+ptr += "<p>Air Temperature: ";
+ptr += (int)AmbTemp;
+ptr += " C</p>";
+ptr += "<p>Humidity: ";
+ptr += (int)Hum;
+ptr += "%</p>";
+ptr += "<p>Clay Temperature: ";
+ptr += (int)ClayTemp;
+ptr += " C</p>";
+ptr += "<p>Your clay is ";
+ptr += PercDry;
+ptr += " % dry</p>";
+
+ptr += "</div>\n";
+ptr += "</body>\n";
+ptr += "</html>\n";
+```
+
 ### Reading the lights
 
 ## Future implementations
