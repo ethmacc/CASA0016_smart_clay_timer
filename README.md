@@ -1,8 +1,14 @@
-# CASA0016_smart_clay_timer
+# CASA0016_smart_clay_timer (PotteryProgress)
 ## About
 This repository is for a smart clay timer project with arduino for the CASA0016 course. It uses a Feather Huzzah to measure temperature non-invasively using an infrared thermal camera and uses the change in temperature of clay as it dries as an indicator of progress of the drying process. This progress is displayed tangibly using a strip of RGB LEDs, much like a loading bar. With some calibration, this project may also be suitable for measuring the drying of other materials such as paint or as an automatic contactless thermometer.
 
 ![IMG_6635](https://github.com/ethmacc/CASA0016_smart_clay_timer/assets/60006290/8892c229-0019-418b-b67e-2db27e8d7fab)
+
+_PotteryProgress: The Smart Clay Timer/Sensor_
+
+![IMG_6637](https://github.com/ethmacc/CASA0016_smart_clay_timer/assets/60006290/0089a92f-b200-4ee0-b7b1-24000745c1bd)
+
+_Inital concept sketch. Note the differences in final colours used and the original position of the DHT22 sensor_
 
 ## Materials and dependencies
 ### Materials
