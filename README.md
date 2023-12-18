@@ -9,7 +9,7 @@ This repository is for a smart clay timer project with arduino for the CASA0016 
 The following hardware was used in this project:
 - **Adafruit Feather Huzzah** (or similar ESP8266-based board)
 - **SR04** Ultrasonic distance sensor / range finder
-- **MLX90640** thermal camera (Pimoroni or similar with integrated surface-mount regulation components)
+- **MLX90640** thermal camera (Pimoroni or similar with integrated surface-mount voltage regulation components)
 - **DHT22** temperature and humidity sensor
 - **Adafruit Neopixel stick** (with 8 LEDs)
 - **Copper wires** (in black, red, etc. sleeves)
@@ -17,18 +17,31 @@ The following hardware was used in this project:
 
 ### Dependencies
 The following dependencies must be installed for this project to work:
-- ESP8266 drivers for Arduino IDE
-- Adafruit MLX90640 library
-- Adafruit Neopixel library
-- Math library
-- DHT22 libraries
+- **ESP8266 board package** to ensure the Arduino IDE can communicate and write code to the Feather Huzzah
+- **Adafruit MLX90640 library** I found this simpler to use than the Sparkfun libraries and sketches suggested by Pimoroni 
+- **Adafruit Neopixel library** to control the Neopixels
+- **Math library** for the round function to round floating point numbers to integers
+- **Adafruit DHT22 sensor library** to interface and read from the DHT22 sensor
+- **ESP8266WifiMulti.h** to connect to multiple WiFi networks, including my home and university networks
+- **ESP8266WebServer** to use the ESP8266 as a web server capable of hosting simple webpages
 
-## Circuitry
+## Method
+### Wiring and circuitry
 The ultrasonic sensor and Neopixel LED strip require a 5V circuit to be powered, while the other sensors can work at 3.3V. The logic of the Feather Huzzah is 3.3V, hence it makes sense to maintain most of the load on the 3.3V circuit and provide a seperate circuit from the USB pin (5V) of the Huzzah to power the ultrasonic sensor and the LEDs. For the ultrasonic sensor, 2 10k Ohm resistors are necessary to create a voltage divider to return a signal back to the Huzzah at 2.5V, within the logic level of the microcontroller. A further 10k Ohm resistor is also used as pull-up for the DHT22 sensor output pin.
 
 ![CASA0016_smart_clay_timer_bb](https://github.com/ethmacc/CASA0016_smart_clay_timer/assets/60006290/426314c8-7e47-4111-8254-98b834e040ec)
 
 ![CASA0016_smart_clay_timer_schem](https://github.com/ethmacc/CASA0016_smart_clay_timer/assets/60006290/63205188-b591-4609-833f-8ae326127e08)
+
+The disadvantage of taking such an approach with the Feather Huzzah
+
+### Sensor testing and evalution
+
+### Testing with real objects
+
+![IMG_6647](https://github.com/ethmacc/CASA0016_smart_clay_timer/assets/60006290/51db1c8b-e9ad-4b48-aa8c-53d2612b09ee)
+
+### Software
 
 ## Prototyping the board
 
@@ -40,9 +53,16 @@ The ultrasonic sensor and Neopixel LED strip require a 5V circuit to be powered,
 
 ![IMG_6630](https://github.com/ethmacc/CASA0016_smart_clay_timer/assets/60006290/c246ca08-078d-48ed-b230-d804779aac5a)
 
-
-
 ## Enclosure
 
 ![IMG_6629](https://github.com/ethmacc/CASA0016_smart_clay_timer/assets/60006290/1e3b3046-d373-4fd8-bcec-70253299c321)
+
+## Visulizing Data
+
+### Using the ESP8266 to serve a webpage
+
+![IMG_6636](https://github.com/ethmacc/CASA0016_smart_clay_timer/assets/60006290/5c0705c4-bb31-4a7b-be17-ee3b48bb2714)
+
+## Future implementations
+
 
