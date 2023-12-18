@@ -73,6 +73,8 @@ A PCB or maker strip board was considered essential to the project as the final 
 
 ![IMG_6624](https://github.com/ethmacc/CASA0016_smart_clay_timer/assets/60006290/45e6d16f-c744-4ba2-8627-0867a37a305b)
 
+The more expensive components, such as the Feather Huzzah and the MLX90640, were connected using male/female header pins so that they could be removed and reused, while components that had to be attached at specific positions below the front face of the enclosure were attached with breadboard connectors to allow some flexibility over their final placement.
+
 ![IMG_6631](https://github.com/ethmacc/CASA0016_smart_clay_timer/assets/60006290/542c5e1c-0caa-4eaf-976d-3aee22248199)
 
 ![IMG_6630](https://github.com/ethmacc/CASA0016_smart_clay_timer/assets/60006290/c246ca08-078d-48ed-b230-d804779aac5a)
@@ -85,7 +87,11 @@ The enclosure was based off a simple box design generated using the MakerCase we
 
 The openings for the various sensors were measured and drawn into the .dxf file using Fusion360. The .dxf file was then used to lasercut 3mm plywood to make the box. Where errors were made, more precise measurements were taken with a pair of vernier calipers and used to correct the drawings.
 
-To secure the ultrasonic sensor and the Neopixel strip to the enclosure, 2M screws and nuts were used.
+![IMG_6648](https://github.com/ethmacc/CASA0016_smart_clay_timer/assets/60006290/1d0b83af-2656-45d1-b8ad-90b68dab840f)
+
+_Discarded plywood pieces of the enclosure with hand-written markings showing corrections to be made for the next cut_
+
+To secure the ultrasonic sensor and the Neopixel strip to the enclosure body, 2M screws and nuts were used. The SR04 has holes that are sufficiently tight that nuts will probably not be necessary to hold it securely if 2M screws are used.
 
 ## Visualizing Data
 
