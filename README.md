@@ -67,6 +67,8 @@ _Testing the device with a cold and moist object such as a glass of water straig
 
 ## Prototyping the board
 
+A PCB or maker strip board was considered essential to the project as 
+
 ![IMG_6621](https://github.com/ethmacc/CASA0016_smart_clay_timer/assets/60006290/c670622b-afc2-4fd6-87d4-5d68f26da965)
 
 ![IMG_6624](https://github.com/ethmacc/CASA0016_smart_clay_timer/assets/60006290/45e6d16f-c744-4ba2-8627-0867a37a305b)
@@ -77,14 +79,24 @@ _Testing the device with a cold and moist object such as a glass of water straig
 
 ## Enclosure
 
+The enclosure was based off a simple box design generated using the MakerCase website (https://en.makercase.com/#/)
+
 ![IMG_6629](https://github.com/ethmacc/CASA0016_smart_clay_timer/assets/60006290/1e3b3046-d373-4fd8-bcec-70253299c321)
 
-## Visulizing Data
+The openings for the various sensors were measured and drawn into the .dxf file using Fusion360. The .dxf file was then used to lasercut 3mm plywood to make the box. Where errors were made, more precise measurements were taken with a pair of vernier calipers and used to correct the drawings.
+
+To secure the ultrasonic sensor and the Neopixel strip to the enclosure, 2M screws and nuts were used.
+
+## Visualizing Data
 
 ### Using the ESP8266 to serve a webpage
 
 <img height="500" alt="ESP8266 webpage" src="https://github.com/ethmacc/CASA0016_smart_clay_timer/assets/60006290/51db1c8b-e9ad-4b48-aa8c-53d2612b09ee">
 
-## Future implementations
+### Reading the lights
 
+## Future implementations
+- Simple LCD screen to show the thermal camera output in visual form, as well as display the device's IP address so that a user can browse to it to see the full set of data being collected.
+- Vibration motor/ buzzer, which could be used to indicate when the clay is done and dry.
+- A dedicated PCB so that the device USB port can be placed at a more convenient location on its side.
 
