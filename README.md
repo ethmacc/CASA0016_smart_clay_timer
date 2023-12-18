@@ -92,6 +92,7 @@ The openings for the various sensors were measured and drawn into the .dxf file 
 _Discarded plywood pieces of the enclosure with hand-written markings showing corrections to be made for the next cut_
 
 
+
 To secure the ultrasonic sensor and the Neopixel strip to the enclosure body, 2M screws and nuts were used. The SR04 has holes that are sufficiently tight that nuts will probably not be necessary to hold it securely if 2M screws are used.
 
 ## Visualizing Data
