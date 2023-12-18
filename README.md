@@ -71,7 +71,25 @@ _Testing the device with a cold and moist object such as a glass of water straig
 
 Calibrating this project to wet and dry clay required testing with a variety of objects to get a feel for how the temperatures of wet and dry objects might differ. Cold water in a glass was one such object and it was found that, the glass itself was almost always one or two degrees warmer than the water within it. More relevant to the project however, it was also found that bone-dry clay almost always had temperature readings around room temperature.
 
-### Software
+### Software & algorithms
+
+While getting an array of temperature readings from the camera is useful, what was really needed was a way of estimating the overall temperature of the object in front of the camera. Without getting bogged down in computer vision techniques, which aren't really ideal for the ESP8266 anyway, a simple way to approximate the temperature of the subject and ignore the background readings is simply to take the mode or most common temperature value in the frame. To ensure that the most common value is the correct one, the object must be placed reasonably close to the camera such that most of it fill the frame, which is where the ultrasonic sensor comes in. Using coniditonal statments, the Feather Huzzah only takes readings from the thermal camera whenever an object is placed within 15cm of the device's front face.
+
+The solution to finding the mode per frame was to use a histogram type data structure (https://cplusplus.com/forum/general/257730/). This counts the frequency of each unique temperature value and stores them in key:value pairs, similar to a python dictionary. 
+
+```
+histogram[T]++; //increment element(temperature reading) count
+mode_count = std::max(mode_count, histogram[T]);
+```
+
+The key(s) with the highest count is therefore mode, which can then be retrieved using a simple comparison statement in a for loop, the code for which was adapted from https://stackoverflow.com/questions/42194494/find-the-mode-of-an-unsorted-array-and-if-that-array-has-more-than-one-mode-or-n:
+
+```
+for (auto T: histogram){
+  if (T.second == mode_count) {
+```
+
+To ensure that there was a mode in the first place, which wouldn't exist if all the temperature values in the array were different from one another, the values were normalized by rounding them to the nearest integer.
 
 ## Prototyping the board
 
