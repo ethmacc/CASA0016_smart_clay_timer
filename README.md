@@ -61,13 +61,13 @@ The MLX90640 thermal camera forms the heart of the device and this project and t
 
 ![IMG_6636](https://github.com/ethmacc/CASA0016_smart_clay_timer/assets/60006290/5c0705c4-bb31-4a7b-be17-ee3b48bb2714)
 
-_Testing the device with a cold and moist object such as a glass of water straight from the tap in winter_
+_Testing the device with a cold and moist object such as a glass of water straight from the tap_
 
 ### Software
 
 ## Prototyping the board
 
-A PCB or maker strip board was considered essential to the project as 
+A PCB or maker strip board was considered essential to the project as the final device was envisioned to be quite small and compact as a potential consumer product. To achieve this, the mess of wires and the breadboard had to be miniaturised to fit into a relatively small enclosure. The most reasonable way to prototype this is to use a strip board, which has copper connections running in parallel strips along a board. New connections can be made by soldering wires from one strip to another and individual lengths of each strip can also be isolated by breaking the copper channel using a drill bit in a pin vise or another similar tool:
 
 ![IMG_6621](https://github.com/ethmacc/CASA0016_smart_clay_timer/assets/60006290/c670622b-afc2-4fd6-87d4-5d68f26da965)
 
