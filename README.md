@@ -7,13 +7,13 @@ This repository is for a smart clay timer project with arduino for the CASA0016 
 ## Materials and dependencies
 ### Materials
 The following hardware was used in this project:
-- Adafruit Feather Huzzah (but you can use any ESP8266-based board)
-- SR04 Ultrasonic distance sensor / range finder
-- MLX90640 thermal camera (on Pimoroni's board)
-- DHT22 temperature and humidity sensor
-- Adafruit Neopixel stick (with 8 LEDs)
-- Copper wires (in black, red, etc. sleeves)
-- 3 10k Ohm resistors
+- **Adafruit Feather Huzzah** (or similar ESP8266-based board)
+- **SR04** Ultrasonic distance sensor / range finder
+- **MLX90640** thermal camera (Pimoroni or similar with integrated surface-mount regulation components)
+- **DHT22** temperature and humidity sensor
+- **Adafruit Neopixel stick** (with 8 LEDs)
+- **Copper wires** (in black, red, etc. sleeves)
+- 3 10k **Ohm resistors**
 
 ### Dependencies
 The following dependencies must be installed for this project to work:
