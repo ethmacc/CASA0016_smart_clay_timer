@@ -82,7 +82,7 @@ histogram[T]++; //increment element(temperature reading) count
 mode_count = std::max(mode_count, histogram[T]);
 ```
 
-The key(s) with the highest count is/are therefore the modes, which can then be retrieved using a simple comparison statement in a for loop, the code for which was adapted from https://stackoverflow.com/questions/42194494/find-the-mode-of-an-unsorted-array-and-if-that-array-has-more-than-one-mode-or-n:
+The key(s) with the highest count is/are therefore the mode(s), which can then be retrieved using a simple comparison statement in a for loop, the code for which was adapted from https://stackoverflow.com/questions/42194494/find-the-mode-of-an-unsorted-array-and-if-that-array-has-more-than-one-mode-or-n:
 
 ```
 for (auto T: histogram){
