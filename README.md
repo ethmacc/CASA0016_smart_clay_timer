@@ -31,9 +31,11 @@ The ultrasonic sensor and Neopixel LED strip require a 5V circuit to be powered,
 
 ![CASA0016_smart_clay_timer_bb](https://github.com/ethmacc/CASA0016_smart_clay_timer/assets/60006290/426314c8-7e47-4111-8254-98b834e040ec)
 
+_Fritzing breadboard diagram_
+
 ![CASA0016_smart_clay_timer_schem](https://github.com/ethmacc/CASA0016_smart_clay_timer/assets/60006290/63205188-b591-4609-833f-8ae326127e08)
 
-_Diagrams of the circuit made with Fritzing_
+_Fritzing circuit diagram_
 
 The disadvantage of taking such an approach with the Feather Huzzah is that a 5V power supply must be connected to the USB port to provide 5V to the USB output pin. This means that the device must be plugged into a 5V wall adapter or into a 5V power bank, which limits the settings in which it may be deployed. However, as this device is envisioned to be used within an indoor pottery studio setting, it is expected to be plugged into mains power most of the time.
 
