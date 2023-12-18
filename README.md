@@ -33,9 +33,12 @@ The ultrasonic sensor and Neopixel LED strip require a 5V circuit to be powered,
 
 ![CASA0016_smart_clay_timer_schem](https://github.com/ethmacc/CASA0016_smart_clay_timer/assets/60006290/63205188-b591-4609-833f-8ae326127e08)
 
-The disadvantage of taking such an approach with the Feather Huzzah
+_Diagrams of the circuit made with Fritzing_
+
+The disadvantage of taking such an approach with the Feather Huzzah is that a 5V power supply must be connected to the USB port to provide 5V to the USB output pin. This means that the device must be plugged into a 5V wall adapter or into a 5V power bank, which limits the settings in which it may be deployed. However, as this device is envisioned to be used within an indoor pottery studio setting, it is expected to be plugged into mains power most of the time.
 
 ### Sensor testing and evalution
+The Arduino built-in, DHT sensor and Adafruit MLX90640 libraries provide useful example sketches which may be used to test and understand the sensors. For the ultrasonic sensor, you can use the ```Ping``` sketch from the built-in examples to test and trouble shoot the sensor, and ensure that the pins that you have selected to produce and receive the ultrasonic pulse are behaving as expected. For this project specifically, pins 13 and 15 were used for the 
 
 ### Testing with real objects
 
