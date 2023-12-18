@@ -39,7 +39,7 @@ The disadvantage of taking such an approach with the Feather Huzzah
 
 ### Testing with real objects
 
-![IMG_6647](https://github.com/ethmacc/CASA0016_smart_clay_timer/assets/60006290/51db1c8b-e9ad-4b48-aa8c-53d2612b09ee)
+![IMG_6636](https://github.com/ethmacc/CASA0016_smart_clay_timer/assets/60006290/5c0705c4-bb31-4a7b-be17-ee3b48bb2714)
 
 ### Software
 
@@ -61,7 +61,7 @@ The disadvantage of taking such an approach with the Feather Huzzah
 
 ### Using the ESP8266 to serve a webpage
 
-![IMG_6636](https://github.com/ethmacc/CASA0016_smart_clay_timer/assets/60006290/5c0705c4-bb31-4a7b-be17-ee3b48bb2714)
+![IMG_6647](https://github.com/ethmacc/CASA0016_smart_clay_timer/assets/60006290/51db1c8b-e9ad-4b48-aa8c-53d2612b09ee)
 
 ## Future implementations
 
