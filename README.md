@@ -71,6 +71,8 @@ A PCB or maker strip board was considered essential to the project as the final 
 
 ![IMG_6621](https://github.com/ethmacc/CASA0016_smart_clay_timer/assets/60006290/c670622b-afc2-4fd6-87d4-5d68f26da965)
 
+_The copper side of the strip board showing the pattern created by breaking the copper channels _
+
 ![IMG_6624](https://github.com/ethmacc/CASA0016_smart_clay_timer/assets/60006290/45e6d16f-c744-4ba2-8627-0867a37a305b)
 
 The more expensive components, such as the Feather Huzzah and the MLX90640, were connected using male/female header pins so that they could be removed and reused, while components that had to be attached at specific positions below the front face of the enclosure were attached with breadboard connectors to allow some flexibility over their final placement.
