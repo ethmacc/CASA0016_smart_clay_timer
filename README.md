@@ -18,8 +18,9 @@ The following hardware was used in this project:
 - **MLX90640 Infrared Thermal Camera** (Pimoroni or similar with integrated surface-mount voltage regulation components)
 - **DHT22** temperature and humidity sensor
 - **Adafruit Neopixel stick** (with 8 LEDs)
-- **Copper wires** (in black, red, etc. sleeves)
+- **Copper wires (sleeved)** (in black, red, etc.)
 - 3 **10k Ohm resistors**
+- **Proto/strip board**
 
 ### Dependencies
 The following dependencies must be installed for this project to work:
