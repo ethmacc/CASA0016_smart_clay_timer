@@ -30,7 +30,7 @@ The following dependencies must be installed for this project to work:
 - **Adafruit Neopixel library** to control the Neopixels
 - **Math library** for the round function to round floating point numbers to integers
 - **Adafruit DHT22 sensor library** to interface and read from the DHT22 sensor
-- **ESP8266WifiMulti.h** to connect to multiple WiFi networks, including my home and university networks
+- **ESP8266WifiMulti.h** to connect to multiple WiFi networks
 - **ESP8266WebServer** to use the ESP8266 as a web server capable of hosting simple webpages
 
 ## Method
@@ -168,7 +168,7 @@ ptr += "</div>\n";
 ptr += "</body>\n";
 ptr += "</html>\n";
 ```
-The Google fonts website (https://fonts.google.com/) was linked into the HTML file to provide the Silkscreen font, which felt like it would work well visually with the robot face formed by the sensor ports in the front face of the enclosure. To provide some illustration and visual interest, a simple drawing of a pot, drawn by the author, was also embedded in the webpage.
+The Google fonts website (https://fonts.google.com/) was linked into the HTML file to provide the Silkscreen font, which felt like it would work well visually with the robot face formed by the sensor ports in the front face of the enclosure. To provide some illustration and visual interest, a simple drawing of a pot, drawn from scratch, was also embedded in the webpage.
 
 ### Reading the lights
 
