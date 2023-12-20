@@ -64,6 +64,7 @@ void setup() {
   Serial.println("MLX90640 Smart Clay Timer");
   if (! mlx.begin(MLX90640_I2CADDR_DEFAULT, &Wire)) {
     Serial.println("MLX90640 not found!");
+    while (1) delay(10);
   }
   
   // start DHT sensor

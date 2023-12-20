@@ -489,19 +489,19 @@ $SKPOLY
   9
 $TDCREATE
  40
-2460290.539618056
+2460299.669085649
   9
 $TDUCREATE
  40
-2460290.539618056
+2460299.669085649
   9
 $TDUPDATE
  40
-2460290.539618056
+2460299.669085649
   9
 $TDUUPDATE
  40
-2460290.539618056
+2460299.669085649
   9
 $TDINDWG
  40
@@ -549,7 +549,7 @@ $SPLINESEGS
   9
 $HANDSEED
   5
-1B2
+1BE
   9
 $SURFTAB1
  70
@@ -929,11 +929,11 @@ $PSTYLEMODE
   9
 $FINGERPRINTGUID
   2
-{8A83BE04-D3D2-3344-9A54-167D276B8714}
+{7AFBBFA4-35FF-C545-942C-634E0D869B9F}
   9
 $VERSIONGUID
   2
-{AB43034C-D13D-D346-9638-85DD7DC78CBB}
+{6773EBFD-7C28-8843-AB49-EE8B2A0F953E}
   9
 $EXTNAMES
 290
@@ -1557,7 +1557,7 @@ AcDbSymbolTableRecord
 100
 AcDbLayerTableRecord
   2
-claytime_box v5_front_outsideCutPath
+claytime_box v7_front_outsideCutPath
  70
      0
  62
@@ -1579,7 +1579,7 @@ NFusion_SketchTransform
   0
 LAYER
   5
-CC
+D5
 330
 2
 100
@@ -1587,7 +1587,7 @@ AcDbSymbolTableRecord
 100
 AcDbLayerTableRecord
   2
-claytime_box v5_left_outsideCutPath
+claytime_box v7_left_outsideCutPath
  70
      0
  62
@@ -1609,7 +1609,7 @@ NFusion_SketchTransform
   0
 LAYER
   5
-EB
+F4
 330
 2
 100
@@ -1617,7 +1617,7 @@ AcDbSymbolTableRecord
 100
 AcDbLayerTableRecord
   2
-claytime_box v5_top_outsideCutPath
+claytime_box v7_top_outsideCutPath
  70
      0
  62
@@ -1639,7 +1639,7 @@ NFusion_SketchTransform
   0
 LAYER
   5
-110
+119
 330
 2
 100
@@ -1647,7 +1647,7 @@ AcDbSymbolTableRecord
 100
 AcDbLayerTableRecord
   2
-claytime_box v5_back_outsideCutPath
+claytime_box v7_back_outsideCutPath
  70
      0
  62
@@ -1669,7 +1669,7 @@ NFusion_SketchTransform
   0
 LAYER
   5
-15F
+167
 330
 2
 100
@@ -1677,7 +1677,7 @@ AcDbSymbolTableRecord
 100
 AcDbLayerTableRecord
   2
-claytime_box v5_right_outsideCutPath
+claytime_box v7_right_outsideCutPath
  70
      0
  62
@@ -1699,7 +1699,7 @@ NFusion_SketchTransform
   0
 LAYER
   5
-17E
+186
 330
 2
 100
@@ -1707,7 +1707,7 @@ AcDbSymbolTableRecord
 100
 AcDbLayerTableRecord
   2
-claytime_box v5_bottom_outsideCutPath
+claytime_box v7_bottom_outsideCutPath
  70
      0
  62
@@ -1729,7 +1729,7 @@ NFusion_SketchTransform
   0
 LAYER
   5
-1A3
+1AF
 330
 2
 100
@@ -1737,7 +1737,7 @@ AcDbSymbolTableRecord
 100
 AcDbLayerTableRecord
   2
-claytime_box v5_Sketch7
+claytime_box v7_Sketch7
  70
      0
  62
@@ -2217,19 +2217,19 @@ LINE
 100
 AcDbEntity
   8
-claytime_box v5_front_outsideCutPath
+claytime_box v7_front_outsideCutPath
 100
 AcDbLine
  10
-10.6
+8.957500000000001
  20
-8.25
+7.949999999999999
  30
 0.0
  11
-8.957500000000001
+7.494499999999999
  21
-8.25
+7.949999999999999
  31
 0.0
   0
@@ -2241,419 +2241,7 @@ LINE
 100
 AcDbEntity
   8
-claytime_box v5_front_outsideCutPath
-100
-AcDbLine
- 10
-12.60000018775463
- 20
-3.500000054389238
- 30
-0.0
- 11
-14.70004775707108
- 21
-3.500000054389238
- 31
-0.0
-  0
-LINE
-  5
-7D
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_front_outsideCutPath
-100
-AcDbLine
- 10
-2.750000078976154
- 20
-1.243098756188372
- 30
-0.0
- 11
-3.950000078976154
- 21
-1.243098756188372
- 31
-0.0
-  0
-LINE
-  5
-7E
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_front_outsideCutPath
-100
-AcDbLine
- 10
-14.70004775707108
- 20
-3.500000054389238
- 30
-0.0
- 11
-14.70004775707108
- 21
-5.099999813362956
- 31
-0.0
-  0
-LINE
-  5
-7F
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_front_outsideCutPath
-100
-AcDbLine
- 10
-10.6
- 20
-6.394499999999998
- 30
-0.0
- 11
-10.6
- 21
-7.857499999999999
- 31
-0.0
-  0
-CIRCLE
-  5
-80
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_front_outsideCutPath
-100
-AcDbCircle
- 10
-31.90000007897616
- 20
-2.850000052154063
- 30
-0.0
- 40
-0.1000000000000006
-  0
-CIRCLE
-  5
-81
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_front_outsideCutPath
-100
-AcDbCircle
- 10
-3.950000078976154
- 20
-1.043098756188372
- 30
-0.0
- 40
-0.0999999999999997
-  0
-CIRCLE
-  5
-82
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_front_outsideCutPath
-100
-AcDbCircle
- 10
-6.600000078976154
- 20
-5.750000052154064
- 30
-0.0
- 40
-0.8499999999999998
-  0
-CIRCLE
-  5
-83
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_front_outsideCutPath
-100
-AcDbCircle
- 10
-4.000000059604644
- 20
-5.750000052154064
- 30
-0.0
- 40
-0.8500000000000001
-  0
-LINE
-  5
-84
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_front_outsideCutPath
-100
-AcDbLine
- 10
-10.6
- 20
-7.857499999999999
- 30
-0.0
- 11
-10.6
- 21
-8.25
- 31
-0.0
-  0
-LINE
-  5
-85
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_front_outsideCutPath
-100
-AcDbLine
- 10
-2.750000078976154
- 20
-1.850000043213367
- 30
-0.0
- 11
-7.850000078976155
- 21
-1.850000043213367
- 31
-0.0
-  0
-LINE
-  5
-86
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_front_outsideCutPath
-100
-AcDbLine
- 10
-3.1055
- 20
-7.949999999999999
- 30
-0.0
- 11
-1.6425
- 21
-7.949999999999999
- 31
-0.0
-  0
-LINE
-  5
-87
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_front_outsideCutPath
-100
-AcDbLine
- 10
-6.0315
- 20
-7.949999999999999
- 30
-0.0
- 11
-4.5685
- 21
-7.949999999999999
- 31
-0.0
-  0
-LINE
-  5
-88
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_front_outsideCutPath
-100
-AcDbLine
- 10
-6.0315
- 20
-8.25
- 30
-0.0
- 11
-6.0315
- 21
-7.949999999999999
- 31
-0.0
-  0
-LINE
-  5
-89
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_front_outsideCutPath
-100
-AcDbLine
- 10
-25.90000039339066
- 20
-7.900000119954347
- 30
-0.0
- 11
-24.70000039339066
- 21
-7.900000119954347
- 31
-0.0
-  0
-CIRCLE
-  5
-8A
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_front_outsideCutPath
-100
-AcDbCircle
- 10
-27.70000005960465
- 20
-0.8500000521540638
- 30
-0.0
- 40
-0.1000000000000007
-  0
-LINE
-  5
-8B
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_front_outsideCutPath
-100
-AcDbLine
- 10
-30.81277209191101
- 20
-1.049999999999999
- 30
-0.0
- 11
-28.78722804666979
- 21
-1.049999999999999
- 31
-0.0
-  0
-LINE
-  5
-8C
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_front_outsideCutPath
-100
-AcDbLine
- 10
-10.6
- 20
-4.931499999999999
- 30
-0.0
- 11
-10.3
- 21
-4.931499999999999
- 31
-0.0
-  0
-LINE
-  5
-8D
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_front_outsideCutPath
-100
-AcDbLine
- 10
-12.60000018775463
- 20
-5.099999813362956
- 30
-0.0
- 11
-12.60000018775463
- 21
-3.500000054389238
- 31
-0.0
-  0
-LINE
-  5
-8E
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_front_outsideCutPath
+claytime_box v7_front_outsideCutPath
 100
 AcDbLine
  10
@@ -2671,25 +2259,445 @@ AcDbLine
   0
 LINE
   5
+7D
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_front_outsideCutPath
+100
+AcDbLine
+ 10
+10.6
+ 20
+3.4685
+ 30
+0.0
+ 11
+10.6
+ 21
+4.931499999999999
+ 31
+0.0
+  0
+LINE
+  5
+7E
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_front_outsideCutPath
+100
+AcDbLine
+ 10
+1.6425
+ 20
+7.949999999999999
+ 30
+0.0
+ 11
+1.6425
+ 21
+8.25
+ 31
+0.0
+  0
+LINE
+  5
+7F
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_front_outsideCutPath
+100
+AcDbLine
+ 10
+3.1055
+ 20
+8.25
+ 30
+0.0
+ 11
+3.1055
+ 21
+7.949999999999999
+ 31
+0.0
+  0
+CIRCLE
+  5
+80
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_front_outsideCutPath
+100
+AcDbCircle
+ 10
+4.000000059604644
+ 20
+5.750000052154064
+ 30
+0.0
+ 40
+0.8500000000000001
+  0
+LINE
+  5
+81
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_front_outsideCutPath
+100
+AcDbLine
+ 10
+8.957500000000001
+ 20
+8.25
+ 30
+0.0
+ 11
+8.957500000000001
+ 21
+7.949999999999999
+ 31
+0.0
+  0
+CIRCLE
+  5
+82
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_front_outsideCutPath
+100
+AcDbCircle
+ 10
+6.600000078976154
+ 20
+5.750000052154064
+ 30
+0.0
+ 40
+0.8499999999999998
+  0
+LINE
+  5
+83
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_front_outsideCutPath
+100
+AcDbLine
+ 10
+4.5685
+ 20
+8.25
+ 30
+0.0
+ 11
+3.1055
+ 21
+8.25
+ 31
+0.0
+  0
+LINE
+  5
+84
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_front_outsideCutPath
+100
+AcDbLine
+ 10
+10.3
+ 20
+2.005499999999999
+ 30
+0.0
+ 11
+10.3
+ 21
+3.4685
+ 31
+0.0
+  0
+LINE
+  5
+85
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_front_outsideCutPath
+100
+AcDbLine
+ 10
+0.3
+ 20
+3.4685
+ 30
+0.0
+ 11
+0.3
+ 21
+2.005499999999999
+ 31
+0.0
+  0
+LINE
+  5
+86
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_front_outsideCutPath
+100
+AcDbLine
+ 10
+7.494499999999999
+ 20
+7.949999999999999
+ 30
+0.0
+ 11
+7.494499999999999
+ 21
+8.25
+ 31
+0.0
+  0
+LINE
+  5
+87
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_front_outsideCutPath
+100
+AcDbLine
+ 10
+1.6425
+ 20
+8.25
+ 30
+0.0
+ 11
+0.0
+ 21
+8.25
+ 31
+0.0
+  0
+LINE
+  5
+88
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_front_outsideCutPath
+100
+AcDbLine
+ 10
+6.0315
+ 20
+0.4499999999999998
+ 30
+0.0
+ 11
+6.0315
+ 21
+0.1499999999999997
+ 31
+0.0
+  0
+LINE
+  5
+89
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_front_outsideCutPath
+100
+AcDbLine
+ 10
+0.0
+ 20
+0.1499999999999997
+ 30
+0.0
+ 11
+1.6425
+ 21
+0.1499999999999997
+ 31
+0.0
+  0
+LINE
+  5
+8A
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_front_outsideCutPath
+100
+AcDbLine
+ 10
+0.0
+ 20
+8.25
+ 30
+0.0
+ 11
+0.0
+ 21
+6.394499999999998
+ 31
+0.0
+  0
+LINE
+  5
+8B
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_front_outsideCutPath
+100
+AcDbLine
+ 10
+6.0315
+ 20
+0.1499999999999997
+ 30
+0.0
+ 11
+7.494499999999999
+ 21
+0.1499999999999997
+ 31
+0.0
+  0
+LINE
+  5
+8C
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_front_outsideCutPath
+100
+AcDbLine
+ 10
+8.957500000000001
+ 20
+0.4499999999999998
+ 30
+0.0
+ 11
+8.957500000000001
+ 21
+0.1499999999999997
+ 31
+0.0
+  0
+LINE
+  5
+8D
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_front_outsideCutPath
+100
+AcDbLine
+ 10
+10.3
+ 20
+3.4685
+ 30
+0.0
+ 11
+10.6
+ 21
+3.4685
+ 31
+0.0
+  0
+CIRCLE
+  5
+8E
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_front_outsideCutPath
+100
+AcDbCircle
+ 10
+5.300000078976154
+ 20
+3.550000052154064
+ 30
+0.0
+ 40
+0.5500000000000002
+  0
+LINE
+  5
 8F
 330
 70
 100
 AcDbEntity
   8
-claytime_box v5_front_outsideCutPath
+claytime_box v7_front_outsideCutPath
 100
 AcDbLine
  10
-27.10000039637089
+0.0
  20
-0.350000141561031
+0.5424999999999996
  30
 0.0
  11
-27.10000039637089
+0.0
  21
-4.050000186264514
+0.1499999999999997
  31
 0.0
   0
@@ -2701,7 +2709,679 @@ LINE
 100
 AcDbEntity
   8
-claytime_box v5_front_outsideCutPath
+claytime_box v7_front_outsideCutPath
+100
+AcDbLine
+ 10
+0.0
+ 20
+4.931499999999999
+ 30
+0.0
+ 11
+0.0
+ 21
+3.4685
+ 31
+0.0
+  0
+LINE
+  5
+91
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_front_outsideCutPath
+100
+AcDbLine
+ 10
+0.3
+ 20
+4.931499999999999
+ 30
+0.0
+ 11
+0.0
+ 21
+4.931499999999999
+ 31
+0.0
+  0
+LINE
+  5
+92
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_front_outsideCutPath
+100
+AcDbLine
+ 10
+0.0
+ 20
+2.005499999999999
+ 30
+0.0
+ 11
+0.0
+ 21
+0.5424999999999996
+ 31
+0.0
+  0
+LINE
+  5
+93
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_front_outsideCutPath
+100
+AcDbLine
+ 10
+3.1055
+ 20
+0.4499999999999998
+ 30
+0.0
+ 11
+3.1055
+ 21
+0.1499999999999997
+ 31
+0.0
+  0
+LINE
+  5
+94
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_front_outsideCutPath
+100
+AcDbLine
+ 10
+4.5685
+ 20
+0.4499999999999998
+ 30
+0.0
+ 11
+6.0315
+ 21
+0.4499999999999998
+ 31
+0.0
+  0
+LINE
+  5
+95
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_front_outsideCutPath
+100
+AcDbLine
+ 10
+8.957500000000001
+ 20
+0.1499999999999997
+ 30
+0.0
+ 11
+10.6
+ 21
+0.1499999999999997
+ 31
+0.0
+  0
+LINE
+  5
+96
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_front_outsideCutPath
+100
+AcDbLine
+ 10
+10.3
+ 20
+6.394499999999998
+ 30
+0.0
+ 11
+10.6
+ 21
+6.394499999999998
+ 31
+0.0
+  0
+LINE
+  5
+97
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_front_outsideCutPath
+100
+AcDbLine
+ 10
+10.6
+ 20
+7.857499999999999
+ 30
+0.0
+ 11
+10.6
+ 21
+8.25
+ 31
+0.0
+  0
+LINE
+  5
+98
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_front_outsideCutPath
+100
+AcDbLine
+ 10
+1.6425
+ 20
+0.1499999999999997
+ 30
+0.0
+ 11
+1.6425
+ 21
+0.4499999999999998
+ 31
+0.0
+  0
+LINE
+  5
+99
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_front_outsideCutPath
+100
+AcDbLine
+ 10
+10.6
+ 20
+8.25
+ 30
+0.0
+ 11
+8.957500000000001
+ 21
+8.25
+ 31
+0.0
+  0
+LINE
+  5
+9A
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_front_outsideCutPath
+100
+AcDbLine
+ 10
+6.0315
+ 20
+7.949999999999999
+ 30
+0.0
+ 11
+4.5685
+ 21
+7.949999999999999
+ 31
+0.0
+  0
+LINE
+  5
+9B
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_front_outsideCutPath
+100
+AcDbLine
+ 10
+0.0
+ 20
+3.4685
+ 30
+0.0
+ 11
+0.3
+ 21
+3.4685
+ 31
+0.0
+  0
+LINE
+  5
+9C
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_front_outsideCutPath
+100
+AcDbLine
+ 10
+3.1055
+ 20
+7.949999999999999
+ 30
+0.0
+ 11
+1.6425
+ 21
+7.949999999999999
+ 31
+0.0
+  0
+LINE
+  5
+9D
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_front_outsideCutPath
+100
+AcDbLine
+ 10
+1.6425
+ 20
+0.4499999999999998
+ 30
+0.0
+ 11
+3.1055
+ 21
+0.4499999999999998
+ 31
+0.0
+  0
+LINE
+  5
+9E
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_front_outsideCutPath
+100
+AcDbLine
+ 10
+3.1055
+ 20
+0.1499999999999997
+ 30
+0.0
+ 11
+4.5685
+ 21
+0.1499999999999997
+ 31
+0.0
+  0
+LINE
+  5
+9F
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_front_outsideCutPath
+100
+AcDbLine
+ 10
+10.6
+ 20
+0.1499999999999997
+ 30
+0.0
+ 11
+10.6
+ 21
+2.005499999999999
+ 31
+0.0
+  0
+LINE
+  5
+A0
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_front_outsideCutPath
+100
+AcDbLine
+ 10
+10.6
+ 20
+2.005499999999999
+ 30
+0.0
+ 11
+10.3
+ 21
+2.005499999999999
+ 31
+0.0
+  0
+LINE
+  5
+A1
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_front_outsideCutPath
+100
+AcDbLine
+ 10
+0.3
+ 20
+2.005499999999999
+ 30
+0.0
+ 11
+0.0
+ 21
+2.005499999999999
+ 31
+0.0
+  0
+LINE
+  5
+A2
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_front_outsideCutPath
+100
+AcDbLine
+ 10
+10.6
+ 20
+4.931499999999999
+ 30
+0.0
+ 11
+10.3
+ 21
+4.931499999999999
+ 31
+0.0
+  0
+LINE
+  5
+A3
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_front_outsideCutPath
+100
+AcDbLine
+ 10
+10.6
+ 20
+6.394499999999998
+ 30
+0.0
+ 11
+10.6
+ 21
+7.857499999999999
+ 31
+0.0
+  0
+LINE
+  5
+A4
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_front_outsideCutPath
+100
+AcDbLine
+ 10
+0.3
+ 20
+6.394499999999998
+ 30
+0.0
+ 11
+0.3
+ 21
+4.931499999999999
+ 31
+0.0
+  0
+LINE
+  5
+A5
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_front_outsideCutPath
+100
+AcDbLine
+ 10
+6.0315
+ 20
+8.25
+ 30
+0.0
+ 11
+6.0315
+ 21
+7.949999999999999
+ 31
+0.0
+  0
+LINE
+  5
+A6
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_front_outsideCutPath
+100
+AcDbLine
+ 10
+4.5685
+ 20
+7.949999999999999
+ 30
+0.0
+ 11
+4.5685
+ 21
+8.25
+ 31
+0.0
+  0
+LINE
+  5
+A7
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_front_outsideCutPath
+100
+AcDbLine
+ 10
+7.494499999999999
+ 20
+0.1499999999999997
+ 30
+0.0
+ 11
+7.494499999999999
+ 21
+0.4499999999999998
+ 31
+0.0
+  0
+LINE
+  5
+A8
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_front_outsideCutPath
+100
+AcDbLine
+ 10
+7.494499999999999
+ 20
+0.4499999999999998
+ 30
+0.0
+ 11
+8.957500000000001
+ 21
+0.4499999999999998
+ 31
+0.0
+  0
+LINE
+  5
+A9
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_front_outsideCutPath
+100
+AcDbLine
+ 10
+10.3
+ 20
+4.931499999999999
+ 30
+0.0
+ 11
+10.3
+ 21
+6.394499999999998
+ 31
+0.0
+  0
+LINE
+  5
+AA
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_front_outsideCutPath
+100
+AcDbLine
+ 10
+0.0
+ 20
+6.394499999999998
+ 30
+0.0
+ 11
+0.3
+ 21
+6.394499999999998
+ 31
+0.0
+  0
+LINE
+  5
+AB
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_front_outsideCutPath
+100
+AcDbLine
+ 10
+4.5685
+ 20
+0.1499999999999997
+ 30
+0.0
+ 11
+4.5685
+ 21
+0.4499999999999998
+ 31
+0.0
+  0
+LINE
+  5
+AC
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_front_outsideCutPath
 100
 AcDbLine
  10
@@ -2719,449 +3399,13 @@ AcDbLine
   0
 LINE
   5
-91
+AD
 330
 70
 100
 AcDbEntity
   8
-claytime_box v5_front_outsideCutPath
-100
-AcDbLine
- 10
-25.90000039339066
- 20
-7.100000119954347
- 30
-0.0
- 11
-25.90000039339066
- 21
-7.900000119954347
- 31
-0.0
-  0
-CIRCLE
-  5
-92
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_front_outsideCutPath
-100
-AcDbCircle
- 10
-5.300000078976154
- 20
-3.350000052154063
- 30
-0.0
- 40
-0.5500000000000002
-  0
-LINE
-  5
-93
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_front_outsideCutPath
-100
-AcDbLine
- 10
-24.70000039339066
- 20
-7.100000119954347
- 30
-0.0
- 11
-25.90000039339066
- 21
-7.100000119954347
- 31
-0.0
-  0
-LINE
-  5
-94
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_front_outsideCutPath
-100
-AcDbLine
- 10
-7.850000078976155
- 20
-1.243098756188372
- 30
-0.0
- 11
-6.650000078976154
- 21
-1.243098756188372
- 31
-0.0
-  0
-LINE
-  5
-95
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_front_outsideCutPath
-100
-AcDbLine
- 10
-32.50000047683716
- 20
-0.350000141561031
- 30
-0.0
- 11
-27.10000039637089
- 21
-0.350000141561031
- 31
-0.0
-  0
-LINE
-  5
-96
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_front_outsideCutPath
-100
-AcDbLine
- 10
-24.70000039339066
- 20
-7.900000119954347
- 30
-0.0
- 11
-24.70000039339066
- 21
-7.100000119954347
- 31
-0.0
-  0
-LINE
-  5
-97
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_front_outsideCutPath
-100
-AcDbLine
- 10
-5.300000078976154
- 20
-1.850000043213367
- 30
-0.0
- 11
-2.750000078976154
- 21
-1.850000043213367
- 31
-0.0
-  0
-LINE
-  5
-98
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_front_outsideCutPath
-100
-AcDbLine
- 10
-2.750000078976154
- 20
-1.243098756188372
- 30
-0.0
- 11
-2.750000078976154
- 21
-1.850000043213367
- 31
-0.0
-  0
-CIRCLE
-  5
-99
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_front_outsideCutPath
-100
-AcDbCircle
- 10
-4.000000059604644
- 20
-5.750000052154064
- 30
-0.0
- 40
-0.8500000000000001
-  0
-LINE
-  5
-9A
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_front_outsideCutPath
-100
-AcDbLine
- 10
-10.3
- 20
-4.931499999999999
- 30
-0.0
- 11
-10.3
- 21
-6.394499999999998
- 31
-0.0
-  0
-LINE
-  5
-9B
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_front_outsideCutPath
-100
-AcDbLine
- 10
-8.957500000000001
- 20
-7.949999999999999
- 30
-0.0
- 11
-7.494499999999999
- 21
-7.949999999999999
- 31
-0.0
-  0
-LINE
-  5
-9C
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_front_outsideCutPath
-100
-AcDbLine
- 10
-32.50000047683716
- 20
-4.050000186264514
- 30
-0.0
- 11
-32.50000047683716
- 21
-0.350000141561031
- 31
-0.0
-  0
-LINE
-  5
-9D
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_front_outsideCutPath
-100
-AcDbLine
- 10
-7.850000078976155
- 20
-1.243098756188372
- 30
-0.0
- 11
-2.750000078976153
- 21
-1.243098756188372
- 31
-0.0
-  0
-CIRCLE
-  5
-9E
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_front_outsideCutPath
-100
-AcDbCircle
- 10
-6.650000078976154
- 20
-1.043098756188372
- 30
-0.0
- 40
-0.0999999999999997
-  0
-LINE
-  5
-9F
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_front_outsideCutPath
-100
-AcDbLine
- 10
-10.6
- 20
-3.4685
- 30
-0.0
- 11
-10.6
- 21
-4.931499999999999
- 31
-0.0
-  0
-LINE
-  5
-A0
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_front_outsideCutPath
-100
-AcDbLine
- 10
-8.957500000000001
- 20
-8.25
- 30
-0.0
- 11
-8.957500000000001
- 21
-7.949999999999999
- 31
-0.0
-  0
-LINE
-  5
-A1
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_front_outsideCutPath
-100
-AcDbLine
- 10
-4.5685
- 20
-7.949999999999999
- 30
-0.0
- 11
-4.5685
- 21
-8.25
- 31
-0.0
-  0
-CIRCLE
-  5
-A2
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_front_outsideCutPath
-100
-AcDbCircle
- 10
-31.90000007897616
- 20
-0.8500000521540638
- 30
-0.0
- 40
-0.0999999999999995
-  0
-CIRCLE
-  5
-A3
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_front_outsideCutPath
-100
-AcDbCircle
- 10
-27.70000005960465
- 20
-2.850000052154063
- 30
-0.0
- 40
-0.0999999999999997
-  0
-LINE
-  5
-A4
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_front_outsideCutPath
+claytime_box v7_front_outsideCutPath
 100
 AcDbLine
  10
@@ -3179,109 +3423,13 @@ AcDbLine
   0
 LINE
   5
-A5
+AE
 330
 70
 100
 AcDbEntity
   8
-claytime_box v5_front_outsideCutPath
-100
-AcDbLine
- 10
-10.3
- 20
-6.394499999999998
- 30
-0.0
- 11
-10.6
- 21
-6.394499999999998
- 31
-0.0
-  0
-LINE
-  5
-A6
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_front_outsideCutPath
-100
-AcDbLine
- 10
-7.494499999999999
- 20
-7.949999999999999
- 30
-0.0
- 11
-7.494499999999999
- 21
-8.25
- 31
-0.0
-  0
-LINE
-  5
-A7
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_front_outsideCutPath
-100
-AcDbLine
- 10
-4.5685
- 20
-8.25
- 30
-0.0
- 11
-3.1055
- 21
-8.25
- 31
-0.0
-  0
-LINE
-  5
-A8
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_front_outsideCutPath
-100
-AcDbLine
- 10
-1.6425
- 20
-8.25
- 30
-0.0
- 11
-0.0
- 21
-8.25
- 31
-0.0
-  0
-LINE
-  5
-A9
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_front_outsideCutPath
+claytime_box v7_front_outsideCutPath
 100
 AcDbLine
  10
@@ -3297,65 +3445,275 @@ AcDbLine
  31
 0.0
   0
-ARC
-  5
-AA
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_front_outsideCutPath
-100
-AcDbCircle
- 10
-28.50000005960465
- 20
-1.850000052154063
- 30
-0.0
- 40
-0.85
-100
-AcDbArc
- 50
-90.00000401775833
- 51
-289.7499123920359
-  0
 LINE
   5
-AB
+AF
 330
 70
 100
 AcDbEntity
   8
-claytime_box v5_front_outsideCutPath
+claytime_box v7_front_outsideCutPath
 100
 AcDbLine
  10
-3.1055
+2.750000078976154
  20
-8.25
+1.243098756188372
  30
 0.0
  11
-3.1055
+3.950000078976154
  21
-7.949999999999999
+1.243098756188372
+ 31
+0.0
+  0
+CIRCLE
+  5
+B0
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_front_outsideCutPath
+100
+AcDbCircle
+ 10
+31.90000007897616
+ 20
+2.725000052154063
+ 30
+0.0
+ 40
+0.1000000000000006
+  0
+LINE
+  5
+B1
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_front_outsideCutPath
+100
+AcDbLine
+ 10
+2.750000078976154
+ 20
+1.850000043213367
+ 30
+0.0
+ 11
+7.850000078976155
+ 21
+1.850000043213367
  31
 0.0
   0
 LINE
   5
-AC
+B2
 330
 70
 100
 AcDbEntity
   8
-claytime_box v5_front_outsideCutPath
+claytime_box v7_front_outsideCutPath
+100
+AcDbLine
+ 10
+28.5
+ 20
+3.049999999999999
+ 30
+0.0
+ 11
+31.10000046342611
+ 21
+3.049999999999999
+ 31
+0.0
+  0
+LINE
+  5
+B3
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_front_outsideCutPath
+100
+AcDbLine
+ 10
+5.300000078976154
+ 20
+1.850000043213367
+ 30
+0.0
+ 11
+2.750000078976154
+ 21
+1.850000043213367
+ 31
+0.0
+  0
+LINE
+  5
+B4
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_front_outsideCutPath
+100
+AcDbLine
+ 10
+7.850000078976155
+ 20
+1.243098756188372
+ 30
+0.0
+ 11
+2.750000078976153
+ 21
+1.243098756188372
+ 31
+0.0
+  0
+LINE
+  5
+B5
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_front_outsideCutPath
+100
+AcDbLine
+ 10
+31.10000046342611
+ 20
+0.7500000134110448
+ 30
+0.0
+ 11
+28.5
+ 21
+0.7500000134110448
+ 31
+0.0
+  0
+LINE
+  5
+B6
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_front_outsideCutPath
+100
+AcDbLine
+ 10
+12.60000018775463
+ 20
+5.099999813362956
+ 30
+0.0
+ 11
+12.60000018775463
+ 21
+3.500000054389238
+ 31
+0.0
+  0
+LINE
+  5
+B7
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_front_outsideCutPath
+100
+AcDbLine
+ 10
+28.80000042915344
+ 20
+4.050000186264514
+ 30
+0.0
+ 11
+28.80000042915344
+ 21
+3.550000055134296
+ 31
+0.0
+  0
+LINE
+  5
+B8
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_front_outsideCutPath
+100
+AcDbLine
+ 10
+28.50000042468309
+ 20
+3.550000055134296
+ 30
+0.0
+ 11
+28.50000042468309
+ 21
+4.050000186264514
+ 31
+0.0
+  0
+LINE
+  5
+B9
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_front_outsideCutPath
+100
+AcDbLine
+ 10
+30.80000045895577
+ 20
+4.050000186264514
+ 30
+0.0
+ 11
+30.80000045895577
+ 21
+3.550000055134296
+ 31
+0.0
+  0
+LINE
+  5
+BA
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_front_outsideCutPath
 100
 AcDbLine
  10
@@ -3373,41 +3731,17 @@ AcDbLine
   0
 LINE
   5
-AD
+BB
 330
 70
 100
 AcDbEntity
   8
-claytime_box v5_front_outsideCutPath
+claytime_box v7_front_outsideCutPath
 100
 AcDbLine
  10
-1.6425
- 20
-7.949999999999999
- 30
-0.0
- 11
-1.6425
- 21
-8.25
- 31
-0.0
-  0
-LINE
-  5
-AE
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_front_outsideCutPath
-100
-AcDbLine
- 10
-27.10000039637089
+31.10000218472344
  20
 4.050000186264514
  30
@@ -3421,13 +3755,309 @@ AcDbLine
   0
 LINE
   5
-AF
+BC
 330
 70
 100
 AcDbEntity
   8
-claytime_box v5_front_outsideCutPath
+claytime_box v7_front_outsideCutPath
+100
+AcDbLine
+ 10
+27.10000039637089
+ 20
+4.050000186264514
+ 30
+0.0
+ 11
+28.50000042468309
+ 21
+4.050000186264514
+ 31
+0.0
+  0
+LINE
+  5
+BD
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_front_outsideCutPath
+100
+AcDbLine
+ 10
+32.50000047683716
+ 20
+0.350000141561031
+ 30
+0.0
+ 11
+27.10000039637089
+ 21
+0.350000141561031
+ 31
+0.0
+  0
+LINE
+  5
+BE
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_front_outsideCutPath
+100
+AcDbLine
+ 10
+7.850000078976155
+ 20
+1.243098756188372
+ 30
+0.0
+ 11
+6.580000078976154
+ 21
+1.243098756188372
+ 31
+0.0
+  0
+LINE
+  5
+BF
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_front_outsideCutPath
+100
+AcDbLine
+ 10
+32.50000047683716
+ 20
+4.050000186264514
+ 30
+0.0
+ 11
+32.50000047683716
+ 21
+0.350000141561031
+ 31
+0.0
+  0
+CIRCLE
+  5
+C0
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_front_outsideCutPath
+100
+AcDbCircle
+ 10
+6.580000078976154
+ 20
+1.043098756188372
+ 30
+0.0
+ 40
+0.0999999999999997
+  0
+CIRCLE
+  5
+C1
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_front_outsideCutPath
+100
+AcDbCircle
+ 10
+27.70000005960465
+ 20
+2.725000052154063
+ 30
+0.0
+ 40
+0.0999999999999997
+  0
+LINE
+  5
+C2
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_front_outsideCutPath
+100
+AcDbLine
+ 10
+12.60000018775463
+ 20
+3.500000054389238
+ 30
+0.0
+ 11
+14.70004775707108
+ 21
+3.500000054389238
+ 31
+0.0
+  0
+CIRCLE
+  5
+C3
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_front_outsideCutPath
+100
+AcDbCircle
+ 10
+31.90000007897616
+ 20
+0.9750000521540638
+ 30
+0.0
+ 40
+0.0999999999999995
+  0
+CIRCLE
+  5
+C4
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_front_outsideCutPath
+100
+AcDbCircle
+ 10
+27.70000005960465
+ 20
+0.9750000521540638
+ 30
+0.0
+ 40
+0.1000000000000007
+  0
+LINE
+  5
+C5
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_front_outsideCutPath
+100
+AcDbLine
+ 10
+28.5
+ 20
+2.700000052154061
+ 30
+0.0
+ 11
+28.5
+ 21
+3.049999999999999
+ 31
+0.0
+  0
+ARC
+  5
+C6
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_front_outsideCutPath
+100
+AcDbCircle
+ 10
+28.50000005960465
+ 20
+1.850000052154063
+ 30
+0.0
+ 40
+0.85
+100
+AcDbArc
+ 50
+90.00000401775833
+ 51
+269.9999959632739
+  0
+ARC
+  5
+C7
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_front_outsideCutPath
+100
+AcDbCircle
+ 10
+31.10000007897616
+ 20
+1.850000052154063
+ 30
+0.0
+ 40
+0.8499999999999998
+100
+AcDbArc
+ 50
+270.0000259145412
+ 51
+90.00000529984117
+  0
+CIRCLE
+  5
+C8
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_front_outsideCutPath
+100
+AcDbCircle
+ 10
+4.020000078976154
+ 20
+1.043098756188372
+ 30
+0.0
+ 40
+0.0999999999999997
+  0
+LINE
+  5
+C9
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_front_outsideCutPath
 100
 AcDbLine
  10
@@ -3443,632 +4073,6 @@ AcDbLine
  31
 0.0
   0
-ARC
-  5
-B0
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_front_outsideCutPath
-100
-AcDbCircle
- 10
-31.10000007897616
- 20
-1.850000052154063
- 30
-0.0
- 40
-0.8499999999999998
-100
-AcDbArc
- 50
-250.2500876079641
- 51
-90.00000532352974
-  0
-LINE
-  5
-B1
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_front_outsideCutPath
-100
-AcDbLine
- 10
-0.0
- 20
-3.4685
- 30
-0.0
- 11
-0.3
- 21
-3.4685
- 31
-0.0
-  0
-LINE
-  5
-B2
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_front_outsideCutPath
-100
-AcDbLine
- 10
-0.0
- 20
-8.25
- 30
-0.0
- 11
-0.0
- 21
-6.394499999999998
- 31
-0.0
-  0
-LINE
-  5
-B3
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_front_outsideCutPath
-100
-AcDbLine
- 10
-0.0
- 20
-0.1499999999999997
- 30
-0.0
- 11
-1.6425
- 21
-0.1499999999999997
- 31
-0.0
-  0
-LINE
-  5
-B4
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_front_outsideCutPath
-100
-AcDbLine
- 10
-0.3
- 20
-4.931499999999999
- 30
-0.0
- 11
-0.0
- 21
-4.931499999999999
- 31
-0.0
-  0
-LINE
-  5
-B5
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_front_outsideCutPath
-100
-AcDbLine
- 10
-1.6425
- 20
-0.1499999999999997
- 30
-0.0
- 11
-1.6425
- 21
-0.4499999999999998
- 31
-0.0
-  0
-LINE
-  5
-B6
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_front_outsideCutPath
-100
-AcDbLine
- 10
-1.6425
- 20
-0.4499999999999998
- 30
-0.0
- 11
-3.1055
- 21
-0.4499999999999998
- 31
-0.0
-  0
-LINE
-  5
-B7
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_front_outsideCutPath
-100
-AcDbLine
- 10
-6.0315
- 20
-0.4499999999999998
- 30
-0.0
- 11
-6.0315
- 21
-0.1499999999999997
- 31
-0.0
-  0
-LINE
-  5
-B8
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_front_outsideCutPath
-100
-AcDbLine
- 10
-6.0315
- 20
-0.1499999999999997
- 30
-0.0
- 11
-7.494499999999999
- 21
-0.1499999999999997
- 31
-0.0
-  0
-LINE
-  5
-B9
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_front_outsideCutPath
-100
-AcDbLine
- 10
-7.494499999999999
- 20
-0.4499999999999998
- 30
-0.0
- 11
-8.957500000000001
- 21
-0.4499999999999998
- 31
-0.0
-  0
-LINE
-  5
-BA
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_front_outsideCutPath
-100
-AcDbLine
- 10
-8.957500000000001
- 20
-0.4499999999999998
- 30
-0.0
- 11
-8.957500000000001
- 21
-0.1499999999999997
- 31
-0.0
-  0
-LINE
-  5
-BB
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_front_outsideCutPath
-100
-AcDbLine
- 10
-10.3
- 20
-2.005499999999999
- 30
-0.0
- 11
-10.3
- 21
-3.4685
- 31
-0.0
-  0
-LINE
-  5
-BC
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_front_outsideCutPath
-100
-AcDbLine
- 10
-0.3
- 20
-2.005499999999999
- 30
-0.0
- 11
-0.0
- 21
-2.005499999999999
- 31
-0.0
-  0
-LINE
-  5
-BD
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_front_outsideCutPath
-100
-AcDbLine
- 10
-4.5685
- 20
-0.4499999999999998
- 30
-0.0
- 11
-6.0315
- 21
-0.4499999999999998
- 31
-0.0
-  0
-LINE
-  5
-BE
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_front_outsideCutPath
-100
-AcDbLine
- 10
-7.494499999999999
- 20
-0.1499999999999997
- 30
-0.0
- 11
-7.494499999999999
- 21
-0.4499999999999998
- 31
-0.0
-  0
-LINE
-  5
-BF
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_front_outsideCutPath
-100
-AcDbLine
- 10
-8.957500000000001
- 20
-0.1499999999999997
- 30
-0.0
- 11
-10.6
- 21
-0.1499999999999997
- 31
-0.0
-  0
-LINE
-  5
-C0
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_front_outsideCutPath
-100
-AcDbLine
- 10
-10.6
- 20
-0.1499999999999997
- 30
-0.0
- 11
-10.6
- 21
-2.005499999999999
- 31
-0.0
-  0
-LINE
-  5
-C1
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_front_outsideCutPath
-100
-AcDbLine
- 10
-0.3
- 20
-3.4685
- 30
-0.0
- 11
-0.3
- 21
-2.005499999999999
- 31
-0.0
-  0
-LINE
-  5
-C2
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_front_outsideCutPath
-100
-AcDbLine
- 10
-3.1055
- 20
-0.1499999999999997
- 30
-0.0
- 11
-4.5685
- 21
-0.1499999999999997
- 31
-0.0
-  0
-LINE
-  5
-C3
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_front_outsideCutPath
-100
-AcDbLine
- 10
-0.0
- 20
-4.931499999999999
- 30
-0.0
- 11
-0.0
- 21
-3.4685
- 31
-0.0
-  0
-LINE
-  5
-C4
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_front_outsideCutPath
-100
-AcDbLine
- 10
-0.0
- 20
-6.394499999999998
- 30
-0.0
- 11
-0.3
- 21
-6.394499999999998
- 31
-0.0
-  0
-LINE
-  5
-C5
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_front_outsideCutPath
-100
-AcDbLine
- 10
-10.3
- 20
-3.4685
- 30
-0.0
- 11
-10.6
- 21
-3.4685
- 31
-0.0
-  0
-LINE
-  5
-C6
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_front_outsideCutPath
-100
-AcDbLine
- 10
-3.1055
- 20
-0.4499999999999998
- 30
-0.0
- 11
-3.1055
- 21
-0.1499999999999997
- 31
-0.0
-  0
-LINE
-  5
-C7
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_front_outsideCutPath
-100
-AcDbLine
- 10
-4.5685
- 20
-0.1499999999999997
- 30
-0.0
- 11
-4.5685
- 21
-0.4499999999999998
- 31
-0.0
-  0
-LINE
-  5
-C8
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_front_outsideCutPath
-100
-AcDbLine
- 10
-10.6
- 20
-2.005499999999999
- 30
-0.0
- 11
-10.3
- 21
-2.005499999999999
- 31
-0.0
-  0
-LINE
-  5
-C9
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_front_outsideCutPath
-100
-AcDbLine
- 10
-0.3
- 20
-6.394499999999998
- 30
-0.0
- 11
-0.3
- 21
-4.931499999999999
- 31
-0.0
-  0
 LINE
   5
 CA
@@ -4077,19 +4081,19 @@ CA
 100
 AcDbEntity
   8
-claytime_box v5_front_outsideCutPath
+claytime_box v7_front_outsideCutPath
 100
 AcDbLine
  10
-0.0
+28.5
  20
-2.005499999999999
+0.7500000134110448
  30
 0.0
  11
-0.0
+28.5
  21
-0.5424999999999996
+1.000000052154065
  31
 0.0
   0
@@ -4101,19 +4105,43 @@ CB
 100
 AcDbEntity
   8
-claytime_box v5_front_outsideCutPath
+claytime_box v7_front_outsideCutPath
 100
 AcDbLine
  10
-0.0
+31.10000046342611
  20
-0.5424999999999996
+1.00000005215415
  30
 0.0
  11
-0.0
+31.10000046342611
  21
-0.1499999999999997
+0.7500000134110448
+ 31
+0.0
+  0
+LINE
+  5
+CC
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_front_outsideCutPath
+100
+AcDbLine
+ 10
+30.80000045895577
+ 20
+3.550000055134296
+ 30
+0.0
+ 11
+31.10000218472344
+ 21
+3.550000055134296
  31
 0.0
   0
@@ -4125,23 +4153,23 @@ CD
 100
 AcDbEntity
   8
-claytime_box v5_left_outsideCutPath
+claytime_box v7_front_outsideCutPath
 100
 AcDbLine
  10
-11.2
+28.80000042915344
  20
-6.544499999999999
+3.550000055134296
  30
 0.0
  11
-10.9
+28.50000042468309
  21
-6.544499999999999
+3.550000055134296
  31
 0.0
   0
-LINE
+CIRCLE
   5
 CE
 330
@@ -4149,21 +4177,17 @@ CE
 100
 AcDbEntity
   8
-claytime_box v5_left_outsideCutPath
+claytime_box v7_front_outsideCutPath
 100
-AcDbLine
+AcDbCircle
  10
-10.9
+4.000000059604644
  20
-6.544499999999999
+5.750000052154064
  30
 0.0
- 11
-10.9
- 21
-5.0815
- 31
-0.0
+ 40
+0.8500000000000001
   0
 LINE
   5
@@ -4173,19 +4197,19 @@ CF
 100
 AcDbEntity
   8
-claytime_box v5_left_outsideCutPath
+claytime_box v7_front_outsideCutPath
 100
 AcDbLine
  10
-10.9
+2.750000078976154
  20
-5.0815
+1.243098756188372
  30
 0.0
  11
-11.2
+2.750000078976154
  21
-5.0815
+1.850000043213367
  31
 0.0
   0
@@ -4197,19 +4221,19 @@ D0
 100
 AcDbEntity
   8
-claytime_box v5_left_outsideCutPath
+claytime_box v7_front_outsideCutPath
 100
 AcDbLine
  10
-11.2
+27.10000039637089
  20
-5.0815
+0.350000141561031
  30
 0.0
  11
-11.2
+27.10000039637089
  21
-3.6185
+4.050000186264514
  31
 0.0
   0
@@ -4221,19 +4245,19 @@ D1
 100
 AcDbEntity
   8
-claytime_box v5_left_outsideCutPath
+claytime_box v7_front_outsideCutPath
 100
 AcDbLine
  10
-11.2
+31.10000218472344
  20
-3.6185
+3.550000055134296
  30
 0.0
  11
-10.9
+31.10000218472344
  21
-3.6185
+4.050000186264514
  31
 0.0
   0
@@ -4245,19 +4269,19 @@ D2
 100
 AcDbEntity
   8
-claytime_box v5_left_outsideCutPath
+claytime_box v7_front_outsideCutPath
 100
 AcDbLine
  10
-10.9
+28.80000042915344
  20
-3.6185
+4.050000186264514
  30
 0.0
  11
-10.9
+30.80000045895577
  21
-2.155499999999999
+4.050000186264514
  31
 0.0
   0
@@ -4269,19 +4293,19 @@ D3
 100
 AcDbEntity
   8
-claytime_box v5_left_outsideCutPath
+claytime_box v7_front_outsideCutPath
 100
 AcDbLine
  10
-10.9
+14.70004775707108
  20
-2.155499999999999
+3.500000054389238
  30
 0.0
  11
-11.2
+14.70004775707108
  21
-2.155499999999999
+5.099999813362956
  31
 0.0
   0
@@ -4293,7 +4317,55 @@ D4
 100
 AcDbEntity
   8
-claytime_box v5_left_outsideCutPath
+claytime_box v7_front_outsideCutPath
+100
+AcDbLine
+ 10
+31.10000046342611
+ 20
+3.049999999999999
+ 30
+0.0
+ 11
+31.1
+ 21
+2.700000052154059
+ 31
+0.0
+  0
+LINE
+  5
+D6
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_left_outsideCutPath
+100
+AcDbLine
+ 10
+11.2
+ 20
+8.4
+ 30
+0.0
+ 11
+11.2
+ 21
+6.544499999999999
+ 31
+0.0
+  0
+LINE
+  5
+D7
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_left_outsideCutPath
 100
 AcDbLine
  10
@@ -4311,95 +4383,23 @@ AcDbLine
   0
 LINE
   5
-D5
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_left_outsideCutPath
-100
-AcDbLine
- 10
-11.2
- 20
-0.6924999999999999
- 30
-0.0
- 11
-11.2
- 21
-0.3
- 31
-0.0
-  0
-LINE
-  5
-D6
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_left_outsideCutPath
-100
-AcDbLine
- 10
-11.2
- 20
-0.3
- 30
-0.0
- 11
-12.4685
- 21
-0.3
- 31
-0.0
-  0
-LINE
-  5
-D7
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_left_outsideCutPath
-100
-AcDbLine
- 10
-15.2
- 20
-6.544499999999999
- 30
-0.0
- 11
-15.2
- 21
-8.0075
- 31
-0.0
-  0
-LINE
-  5
 D8
 330
 70
 100
 AcDbEntity
   8
-claytime_box v5_left_outsideCutPath
+claytime_box v7_left_outsideCutPath
 100
 AcDbLine
  10
 15.5
  20
-6.544499999999999
+5.0815
  30
 0.0
  11
-15.2
+15.5
  21
 6.544499999999999
  31
@@ -4413,19 +4413,19 @@ D9
 100
 AcDbEntity
   8
-claytime_box v5_left_outsideCutPath
+claytime_box v7_left_outsideCutPath
 100
 AcDbLine
  10
-13.9315
+15.2
  20
-8.099999999999999
+5.0815
  30
 0.0
  11
-12.4685
+15.5
  21
-8.099999999999999
+5.0815
  31
 0.0
   0
@@ -4437,19 +4437,19 @@ DA
 100
 AcDbEntity
   8
-claytime_box v5_left_outsideCutPath
+claytime_box v7_left_outsideCutPath
 100
 AcDbLine
  10
-12.4685
+15.5
  20
-8.099999999999999
+6.544499999999999
  30
 0.0
  11
-12.4685
+15.2
  21
-8.4
+6.544499999999999
  31
 0.0
   0
@@ -4461,11 +4461,11 @@ DB
 100
 AcDbEntity
   8
-claytime_box v5_left_outsideCutPath
+claytime_box v7_left_outsideCutPath
 100
 AcDbLine
  10
-15.2
+15.5
  20
 3.6185
  30
@@ -4473,7 +4473,7 @@ AcDbLine
  11
 15.2
  21
-5.0815
+3.6185
  31
 0.0
   0
@@ -4485,7 +4485,319 @@ DC
 100
 AcDbEntity
   8
-claytime_box v5_left_outsideCutPath
+claytime_box v7_left_outsideCutPath
+100
+AcDbLine
+ 10
+15.2
+ 20
+6.544499999999999
+ 30
+0.0
+ 11
+15.2
+ 21
+8.0075
+ 31
+0.0
+  0
+LINE
+  5
+DD
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_left_outsideCutPath
+100
+AcDbLine
+ 10
+10.9
+ 20
+5.0815
+ 30
+0.0
+ 11
+11.2
+ 21
+5.0815
+ 31
+0.0
+  0
+LINE
+  5
+DE
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_left_outsideCutPath
+100
+AcDbLine
+ 10
+10.9
+ 20
+6.544499999999999
+ 30
+0.0
+ 11
+10.9
+ 21
+5.0815
+ 31
+0.0
+  0
+LINE
+  5
+DF
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_left_outsideCutPath
+100
+AcDbLine
+ 10
+11.2
+ 20
+0.3
+ 30
+0.0
+ 11
+12.4685
+ 21
+0.3
+ 31
+0.0
+  0
+LINE
+  5
+E0
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_left_outsideCutPath
+100
+AcDbLine
+ 10
+12.4685
+ 20
+0.3
+ 30
+0.0
+ 11
+12.4685
+ 21
+0.6000000000000001
+ 31
+0.0
+  0
+LINE
+  5
+E1
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_left_outsideCutPath
+100
+AcDbLine
+ 10
+11.2
+ 20
+6.544499999999999
+ 30
+0.0
+ 11
+10.9
+ 21
+6.544499999999999
+ 31
+0.0
+  0
+LINE
+  5
+E2
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_left_outsideCutPath
+100
+AcDbLine
+ 10
+11.2
+ 20
+5.0815
+ 30
+0.0
+ 11
+11.2
+ 21
+3.6185
+ 31
+0.0
+  0
+LINE
+  5
+E3
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_left_outsideCutPath
+100
+AcDbLine
+ 10
+11.2
+ 20
+3.6185
+ 30
+0.0
+ 11
+10.9
+ 21
+3.6185
+ 31
+0.0
+  0
+LINE
+  5
+E4
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_left_outsideCutPath
+100
+AcDbLine
+ 10
+10.9
+ 20
+3.6185
+ 30
+0.0
+ 11
+10.9
+ 21
+2.155499999999999
+ 31
+0.0
+  0
+LINE
+  5
+E5
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_left_outsideCutPath
+100
+AcDbLine
+ 10
+10.9
+ 20
+2.155499999999999
+ 30
+0.0
+ 11
+11.2
+ 21
+2.155499999999999
+ 31
+0.0
+  0
+LINE
+  5
+E6
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_left_outsideCutPath
+100
+AcDbLine
+ 10
+11.2
+ 20
+0.6924999999999999
+ 30
+0.0
+ 11
+11.2
+ 21
+0.3
+ 31
+0.0
+  0
+LINE
+  5
+E7
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_left_outsideCutPath
+100
+AcDbLine
+ 10
+13.9315
+ 20
+0.3
+ 30
+0.0
+ 11
+15.2
+ 21
+0.3
+ 31
+0.0
+  0
+LINE
+  5
+E8
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_left_outsideCutPath
+100
+AcDbLine
+ 10
+15.2
+ 20
+0.3
+ 30
+0.0
+ 11
+15.2
+ 21
+2.155499999999999
+ 31
+0.0
+  0
+LINE
+  5
+E9
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_left_outsideCutPath
 100
 AcDbLine
  10
@@ -4503,13 +4815,133 @@ AcDbLine
   0
 LINE
   5
-DD
+EA
 330
 70
 100
 AcDbEntity
   8
-claytime_box v5_left_outsideCutPath
+claytime_box v7_left_outsideCutPath
+100
+AcDbLine
+ 10
+12.4685
+ 20
+0.6000000000000001
+ 30
+0.0
+ 11
+13.9315
+ 21
+0.6000000000000001
+ 31
+0.0
+  0
+LINE
+  5
+EB
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_left_outsideCutPath
+100
+AcDbLine
+ 10
+13.9315
+ 20
+0.6000000000000001
+ 30
+0.0
+ 11
+13.9315
+ 21
+0.3
+ 31
+0.0
+  0
+LINE
+  5
+EC
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_left_outsideCutPath
+100
+AcDbLine
+ 10
+15.5
+ 20
+2.155499999999999
+ 30
+0.0
+ 11
+15.5
+ 21
+3.6185
+ 31
+0.0
+  0
+LINE
+  5
+ED
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_left_outsideCutPath
+100
+AcDbLine
+ 10
+15.2
+ 20
+3.6185
+ 30
+0.0
+ 11
+15.2
+ 21
+5.0815
+ 31
+0.0
+  0
+LINE
+  5
+EE
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_left_outsideCutPath
+100
+AcDbLine
+ 10
+13.9315
+ 20
+8.099999999999999
+ 30
+0.0
+ 11
+12.4685
+ 21
+8.099999999999999
+ 31
+0.0
+  0
+LINE
+  5
+EF
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_left_outsideCutPath
 100
 AcDbLine
  10
@@ -4527,37 +4959,61 @@ AcDbLine
   0
 LINE
   5
-DE
+F0
 330
 70
 100
 AcDbEntity
   8
-claytime_box v5_left_outsideCutPath
+claytime_box v7_left_outsideCutPath
 100
 AcDbLine
  10
 13.9315
  20
-0.3
+8.4
  30
 0.0
  11
-15.2
+13.9315
  21
-0.3
+8.099999999999999
  31
 0.0
   0
 LINE
   5
-DF
+F1
 330
 70
 100
 AcDbEntity
   8
-claytime_box v5_left_outsideCutPath
+claytime_box v7_left_outsideCutPath
+100
+AcDbLine
+ 10
+15.2
+ 20
+8.4
+ 30
+0.0
+ 11
+13.9315
+ 21
+8.4
+ 31
+0.0
+  0
+LINE
+  5
+F2
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_left_outsideCutPath
 100
 AcDbLine
  10
@@ -4575,445 +5031,37 @@ AcDbLine
   0
 LINE
   5
-E0
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_left_outsideCutPath
-100
-AcDbLine
- 10
-13.9315
- 20
-8.4
- 30
-0.0
- 11
-13.9315
- 21
-8.099999999999999
- 31
-0.0
-  0
-LINE
-  5
-E1
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_left_outsideCutPath
-100
-AcDbLine
- 10
-13.9315
- 20
-0.6000000000000001
- 30
-0.0
- 11
-13.9315
- 21
-0.3
- 31
-0.0
-  0
-LINE
-  5
-E2
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_left_outsideCutPath
-100
-AcDbLine
- 10
-15.2
- 20
-0.3
- 30
-0.0
- 11
-15.2
- 21
-2.155499999999999
- 31
-0.0
-  0
-LINE
-  5
-E3
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_left_outsideCutPath
-100
-AcDbLine
- 10
-15.2
- 20
-5.0815
- 30
-0.0
- 11
-15.5
- 21
-5.0815
- 31
-0.0
-  0
-LINE
-  5
-E4
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_left_outsideCutPath
-100
-AcDbLine
- 10
-12.4685
- 20
-0.6000000000000001
- 30
-0.0
- 11
-13.9315
- 21
-0.6000000000000001
- 31
-0.0
-  0
-LINE
-  5
-E5
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_left_outsideCutPath
-100
-AcDbLine
- 10
-15.5
- 20
-2.155499999999999
- 30
-0.0
- 11
-15.5
- 21
-3.6185
- 31
-0.0
-  0
-LINE
-  5
-E6
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_left_outsideCutPath
-100
-AcDbLine
- 10
-12.4685
- 20
-0.3
- 30
-0.0
- 11
-12.4685
- 21
-0.6000000000000001
- 31
-0.0
-  0
-LINE
-  5
-E7
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_left_outsideCutPath
-100
-AcDbLine
- 10
-15.5
- 20
-5.0815
- 30
-0.0
- 11
-15.5
- 21
-6.544499999999999
- 31
-0.0
-  0
-LINE
-  5
-E8
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_left_outsideCutPath
-100
-AcDbLine
- 10
-15.5
- 20
-3.6185
- 30
-0.0
- 11
-15.2
- 21
-3.6185
- 31
-0.0
-  0
-LINE
-  5
-E9
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_left_outsideCutPath
-100
-AcDbLine
- 10
-15.2
- 20
-8.4
- 30
-0.0
- 11
-13.9315
- 21
-8.4
- 31
-0.0
-  0
-LINE
-  5
-EA
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_left_outsideCutPath
-100
-AcDbLine
- 10
-11.2
- 20
-8.4
- 30
-0.0
- 11
-11.2
- 21
-6.544499999999999
- 31
-0.0
-  0
-LINE
-  5
-EC
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_top_outsideCutPath
-100
-AcDbLine
- 10
-17.4425
- 20
-4.9
- 30
-0.0
- 11
-17.4425
- 21
-4.6
- 31
-0.0
-  0
-LINE
-  5
-ED
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_top_outsideCutPath
-100
-AcDbLine
- 10
-20.3685
- 20
-4.6
- 30
-0.0
- 11
-18.9055
- 21
-4.6
- 31
-0.0
-  0
-LINE
-  5
-EE
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_top_outsideCutPath
-100
-AcDbLine
- 10
-21.8315
- 20
-4.6
- 30
-0.0
- 11
-21.8315
- 21
-4.9
- 31
-0.0
-  0
-LINE
-  5
-EF
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_top_outsideCutPath
-100
-AcDbLine
- 10
-15.8
- 20
-1.8685
- 30
-0.0
- 11
-16.1
- 21
-1.8685
- 31
-0.0
-  0
-LINE
-  5
-F0
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_top_outsideCutPath
-100
-AcDbLine
- 10
-21.8315
- 20
-0.6000000000000001
- 30
-0.0
- 11
-23.2945
- 21
-0.6000000000000001
- 31
-0.0
-  0
-LINE
-  5
-F1
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_top_outsideCutPath
-100
-AcDbLine
- 10
-15.8
- 20
-3.3315
- 30
-0.0
- 11
-15.8
- 21
-1.8685
- 31
-0.0
-  0
-LINE
-  5
-F2
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_top_outsideCutPath
-100
-AcDbLine
- 10
-18.9055
- 20
-0.6000000000000001
- 30
-0.0
- 11
-20.3685
- 21
-0.6000000000000001
- 31
-0.0
-  0
-LINE
-  5
 F3
 330
 70
 100
 AcDbEntity
   8
-claytime_box v5_top_outsideCutPath
+claytime_box v7_left_outsideCutPath
+100
+AcDbLine
+ 10
+12.4685
+ 20
+8.099999999999999
+ 30
+0.0
+ 11
+12.4685
+ 21
+8.4
+ 31
+0.0
+  0
+LINE
+  5
+F5
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_top_outsideCutPath
 100
 AcDbLine
  10
@@ -5031,73 +5079,25 @@ AcDbLine
   0
 LINE
   5
-F4
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_top_outsideCutPath
-100
-AcDbLine
- 10
-16.1
- 20
-3.3315
- 30
-0.0
- 11
-15.8
- 21
-3.3315
- 31
-0.0
-  0
-LINE
-  5
-F5
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_top_outsideCutPath
-100
-AcDbLine
- 10
-17.4425
- 20
-0.6000000000000001
- 30
-0.0
- 11
-17.4425
- 21
-0.3
- 31
-0.0
-  0
-LINE
-  5
 F6
 330
 70
 100
 AcDbEntity
   8
-claytime_box v5_top_outsideCutPath
+claytime_box v7_top_outsideCutPath
 100
 AcDbLine
  10
-23.2945
+15.8
  20
-0.3
+1.8685
  30
 0.0
  11
-24.7575
+16.1
  21
-0.3
+1.8685
  31
 0.0
   0
@@ -5109,17 +5109,17 @@ F7
 100
 AcDbEntity
   8
-claytime_box v5_top_outsideCutPath
+claytime_box v7_top_outsideCutPath
 100
 AcDbLine
  10
-23.2945
+20.3685
  20
-0.6000000000000001
+0.3
  30
 0.0
  11
-23.2945
+21.8315
  21
 0.3
  31
@@ -5133,19 +5133,19 @@ F8
 100
 AcDbEntity
   8
-claytime_box v5_top_outsideCutPath
+claytime_box v7_top_outsideCutPath
 100
 AcDbLine
  10
-20.3685
+23.2945
  20
-0.6000000000000001
+4.9
  30
 0.0
  11
-20.3685
+23.2945
  21
-0.3
+4.6
  31
 0.0
   0
@@ -5157,19 +5157,19 @@ F9
 100
 AcDbEntity
   8
-claytime_box v5_top_outsideCutPath
+claytime_box v7_top_outsideCutPath
 100
 AcDbLine
  10
-26.40000000000001
+21.8315
  20
-3.3315
+4.9
  30
 0.0
  11
-26.1
+20.3685
  21
-3.3315
+4.9
  31
 0.0
   0
@@ -5181,17 +5181,17 @@ FA
 100
 AcDbEntity
   8
-claytime_box v5_top_outsideCutPath
+claytime_box v7_top_outsideCutPath
 100
 AcDbLine
  10
-21.8315
+18.9055
  20
-0.3
+0.6000000000000001
  30
 0.0
  11
-21.8315
+20.3685
  21
 0.6000000000000001
  31
@@ -5205,103 +5205,7 @@ FB
 100
 AcDbEntity
   8
-claytime_box v5_top_outsideCutPath
-100
-AcDbLine
- 10
-16.1
- 20
-0.6000000000000001
- 30
-0.0
- 11
-17.4425
- 21
-0.6000000000000001
- 31
-0.0
-  0
-LINE
-  5
-FC
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_top_outsideCutPath
-100
-AcDbLine
- 10
-24.7575
- 20
-4.6
- 30
-0.0
- 11
-24.7575
- 21
-4.9
- 31
-0.0
-  0
-LINE
-  5
-FD
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_top_outsideCutPath
-100
-AcDbLine
- 10
-23.2945
- 20
-4.9
- 30
-0.0
- 11
-23.2945
- 21
-4.6
- 31
-0.0
-  0
-LINE
-  5
-FE
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_top_outsideCutPath
-100
-AcDbLine
- 10
-20.3685
- 20
-0.3
- 30
-0.0
- 11
-21.8315
- 21
-0.3
- 31
-0.0
-  0
-LINE
-  5
-FF
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_top_outsideCutPath
+claytime_box v7_top_outsideCutPath
 100
 AcDbLine
  10
@@ -5319,25 +5223,121 @@ AcDbLine
   0
 LINE
   5
+FC
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_top_outsideCutPath
+100
+AcDbLine
+ 10
+23.2945
+ 20
+0.3
+ 30
+0.0
+ 11
+24.7575
+ 21
+0.3
+ 31
+0.0
+  0
+LINE
+  5
+FD
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_top_outsideCutPath
+100
+AcDbLine
+ 10
+26.1
+ 20
+1.8685
+ 30
+0.0
+ 11
+26.40000000000001
+ 21
+1.8685
+ 31
+0.0
+  0
+LINE
+  5
+FE
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_top_outsideCutPath
+100
+AcDbLine
+ 10
+18.9055
+ 20
+4.9
+ 30
+0.0
+ 11
+17.4425
+ 21
+4.9
+ 31
+0.0
+  0
+LINE
+  5
+FF
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_top_outsideCutPath
+100
+AcDbLine
+ 10
+17.4425
+ 20
+0.6000000000000001
+ 30
+0.0
+ 11
+17.4425
+ 21
+0.3
+ 31
+0.0
+  0
+LINE
+  5
 100
 330
 70
 100
 AcDbEntity
   8
-claytime_box v5_top_outsideCutPath
+claytime_box v7_top_outsideCutPath
 100
 AcDbLine
  10
-26.1
+16.1
  20
-4.6
+3.3315
  30
 0.0
  11
-24.7575
+15.8
  21
-4.6
+3.3315
  31
 0.0
   0
@@ -5349,19 +5349,19 @@ LINE
 100
 AcDbEntity
   8
-claytime_box v5_top_outsideCutPath
+claytime_box v7_top_outsideCutPath
 100
 AcDbLine
  10
 23.2945
  20
-4.6
+0.6000000000000001
  30
 0.0
  11
-21.8315
+23.2945
  21
-4.6
+0.3
  31
 0.0
   0
@@ -5373,7 +5373,7 @@ LINE
 100
 AcDbEntity
   8
-claytime_box v5_top_outsideCutPath
+claytime_box v7_top_outsideCutPath
 100
 AcDbLine
  10
@@ -5397,19 +5397,19 @@ LINE
 100
 AcDbEntity
   8
-claytime_box v5_top_outsideCutPath
+claytime_box v7_top_outsideCutPath
 100
 AcDbLine
  10
-21.8315
+23.2945
  20
-4.9
+4.6
  30
 0.0
  11
-20.3685
+21.8315
  21
-4.9
+4.6
  31
 0.0
   0
@@ -5421,19 +5421,19 @@ LINE
 100
 AcDbEntity
   8
-claytime_box v5_top_outsideCutPath
+claytime_box v7_top_outsideCutPath
 100
 AcDbLine
  10
-26.40000000000001
+17.4425
  20
-1.8685
+4.9
  30
 0.0
  11
-26.40000000000001
+17.4425
  21
-3.3315
+4.6
  31
 0.0
   0
@@ -5445,19 +5445,19 @@ LINE
 100
 AcDbEntity
   8
-claytime_box v5_top_outsideCutPath
+claytime_box v7_top_outsideCutPath
 100
 AcDbLine
  10
-24.7575
+17.4425
  20
-4.9
+4.6
  30
 0.0
  11
-23.2945
+16.1
  21
-4.9
+4.6
  31
 0.0
   0
@@ -5469,7 +5469,7 @@ LINE
 100
 AcDbEntity
   8
-claytime_box v5_top_outsideCutPath
+claytime_box v7_top_outsideCutPath
 100
 AcDbLine
  10
@@ -5493,17 +5493,17 @@ LINE
 100
 AcDbEntity
   8
-claytime_box v5_top_outsideCutPath
+claytime_box v7_top_outsideCutPath
 100
 AcDbLine
  10
-16.1
+21.8315
  20
-1.8685
+0.3
  30
 0.0
  11
-16.1
+21.8315
  21
 0.6000000000000001
  31
@@ -5517,19 +5517,19 @@ LINE
 100
 AcDbEntity
   8
-claytime_box v5_top_outsideCutPath
+claytime_box v7_top_outsideCutPath
 100
 AcDbLine
  10
-24.7575
+26.1
  20
-0.3
+4.6
  30
 0.0
  11
 24.7575
  21
-0.6000000000000001
+4.6
  31
 0.0
   0
@@ -5541,19 +5541,19 @@ LINE
 100
 AcDbEntity
   8
-claytime_box v5_top_outsideCutPath
+claytime_box v7_top_outsideCutPath
 100
 AcDbLine
  10
-17.4425
+20.3685
  20
-0.3
+4.9
  30
 0.0
  11
-18.9055
+20.3685
  21
-0.3
+4.6
  31
 0.0
   0
@@ -5565,17 +5565,17 @@ LINE
 100
 AcDbEntity
   8
-claytime_box v5_top_outsideCutPath
+claytime_box v7_top_outsideCutPath
 100
 AcDbLine
  10
-26.1
+15.8
  20
-0.6000000000000001
+3.3315
  30
 0.0
  11
-26.1
+15.8
  21
 1.8685
  31
@@ -5589,19 +5589,19 @@ LINE
 100
 AcDbEntity
   8
-claytime_box v5_top_outsideCutPath
+claytime_box v7_top_outsideCutPath
 100
 AcDbLine
  10
-26.1
+16.1
  20
 1.8685
  30
 0.0
  11
-26.40000000000001
+16.1
  21
-1.8685
+0.6000000000000001
  31
 0.0
   0
@@ -5613,31 +5613,7 @@ LINE
 100
 AcDbEntity
   8
-claytime_box v5_top_outsideCutPath
-100
-AcDbLine
- 10
-18.9055
- 20
-4.9
- 30
-0.0
- 11
-17.4425
- 21
-4.9
- 31
-0.0
-  0
-LINE
-  5
-10D
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_top_outsideCutPath
+claytime_box v7_top_outsideCutPath
 100
 AcDbLine
  10
@@ -5655,25 +5631,49 @@ AcDbLine
   0
 LINE
   5
+10D
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_top_outsideCutPath
+100
+AcDbLine
+ 10
+16.1
+ 20
+0.6000000000000001
+ 30
+0.0
+ 11
+17.4425
+ 21
+0.6000000000000001
+ 31
+0.0
+  0
+LINE
+  5
 10E
 330
 70
 100
 AcDbEntity
   8
-claytime_box v5_top_outsideCutPath
+claytime_box v7_top_outsideCutPath
 100
 AcDbLine
  10
-20.3685
+21.8315
  20
-4.9
+0.6000000000000001
  30
 0.0
  11
-20.3685
+23.2945
  21
-4.6
+0.6000000000000001
  31
 0.0
   0
@@ -5685,19 +5685,43 @@ LINE
 100
 AcDbEntity
   8
-claytime_box v5_top_outsideCutPath
+claytime_box v7_top_outsideCutPath
 100
 AcDbLine
  10
-17.4425
+24.7575
  20
-4.6
+0.3
  30
 0.0
  11
-16.1
+24.7575
  21
-4.6
+0.6000000000000001
+ 31
+0.0
+  0
+LINE
+  5
+110
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_top_outsideCutPath
+100
+AcDbLine
+ 10
+20.3685
+ 20
+0.6000000000000001
+ 30
+0.0
+ 11
+20.3685
+ 21
+0.3
  31
 0.0
   0
@@ -5709,19 +5733,19 @@ LINE
 100
 AcDbEntity
   8
-claytime_box v5_back_outsideCutPath
+claytime_box v7_top_outsideCutPath
 100
 AcDbLine
  10
-0.0
+26.1
  20
-12.0185
+0.6000000000000001
  30
 0.0
  11
-0.3
+26.1
  21
-12.0185
+1.8685
  31
 0.0
   0
@@ -5733,7 +5757,439 @@ LINE
 100
 AcDbEntity
   8
-claytime_box v5_back_outsideCutPath
+claytime_box v7_top_outsideCutPath
+100
+AcDbLine
+ 10
+26.40000000000001
+ 20
+1.8685
+ 30
+0.0
+ 11
+26.40000000000001
+ 21
+3.3315
+ 31
+0.0
+  0
+LINE
+  5
+113
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_top_outsideCutPath
+100
+AcDbLine
+ 10
+21.8315
+ 20
+4.6
+ 30
+0.0
+ 11
+21.8315
+ 21
+4.9
+ 31
+0.0
+  0
+LINE
+  5
+114
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_top_outsideCutPath
+100
+AcDbLine
+ 10
+24.7575
+ 20
+4.6
+ 30
+0.0
+ 11
+24.7575
+ 21
+4.9
+ 31
+0.0
+  0
+LINE
+  5
+115
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_top_outsideCutPath
+100
+AcDbLine
+ 10
+17.4425
+ 20
+0.3
+ 30
+0.0
+ 11
+18.9055
+ 21
+0.3
+ 31
+0.0
+  0
+LINE
+  5
+116
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_top_outsideCutPath
+100
+AcDbLine
+ 10
+26.40000000000001
+ 20
+3.3315
+ 30
+0.0
+ 11
+26.1
+ 21
+3.3315
+ 31
+0.0
+  0
+LINE
+  5
+117
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_top_outsideCutPath
+100
+AcDbLine
+ 10
+24.7575
+ 20
+4.9
+ 30
+0.0
+ 11
+23.2945
+ 21
+4.9
+ 31
+0.0
+  0
+LINE
+  5
+118
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_top_outsideCutPath
+100
+AcDbLine
+ 10
+20.3685
+ 20
+4.6
+ 30
+0.0
+ 11
+18.9055
+ 21
+4.6
+ 31
+0.0
+  0
+LINE
+  5
+11A
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_back_outsideCutPath
+100
+AcDbLine
+ 10
+7.494499999999999
+ 20
+8.700000000000001
+ 30
+0.0
+ 11
+7.494499999999999
+ 21
+9.0
+ 31
+0.0
+  0
+LINE
+  5
+11B
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_back_outsideCutPath
+100
+AcDbLine
+ 10
+0.0
+ 20
+12.0185
+ 30
+0.0
+ 11
+0.3
+ 21
+12.0185
+ 31
+0.0
+  0
+LINE
+  5
+11C
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_back_outsideCutPath
+100
+AcDbLine
+ 10
+7.494499999999999
+ 20
+9.0
+ 30
+0.0
+ 11
+8.957500000000001
+ 21
+9.0
+ 31
+0.0
+  0
+LINE
+  5
+11D
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_back_outsideCutPath
+100
+AcDbLine
+ 10
+8.957500000000001
+ 20
+9.0
+ 30
+0.0
+ 11
+8.957500000000001
+ 21
+8.700000000000001
+ 31
+0.0
+  0
+LINE
+  5
+11E
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_back_outsideCutPath
+100
+AcDbLine
+ 10
+4.5685
+ 20
+8.700000000000001
+ 30
+0.0
+ 11
+4.5685
+ 21
+9.0
+ 31
+0.0
+  0
+LINE
+  5
+11F
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_back_outsideCutPath
+100
+AcDbLine
+ 10
+0.0
+ 20
+14.9445
+ 30
+0.0
+ 11
+0.3
+ 21
+14.9445
+ 31
+0.0
+  0
+LINE
+  5
+120
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_back_outsideCutPath
+100
+AcDbLine
+ 10
+0.3
+ 20
+13.4815
+ 30
+0.0
+ 11
+0.0
+ 21
+13.4815
+ 31
+0.0
+  0
+LINE
+  5
+121
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_back_outsideCutPath
+100
+AcDbLine
+ 10
+3.1055
+ 20
+9.0
+ 30
+0.0
+ 11
+3.1055
+ 21
+8.700000000000001
+ 31
+0.0
+  0
+LINE
+  5
+122
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_back_outsideCutPath
+100
+AcDbLine
+ 10
+3.1055
+ 20
+8.700000000000001
+ 30
+0.0
+ 11
+4.5685
+ 21
+8.700000000000001
+ 31
+0.0
+  0
+LINE
+  5
+123
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_back_outsideCutPath
+100
+AcDbLine
+ 10
+0.0
+ 20
+16.8
+ 30
+0.0
+ 11
+0.0
+ 21
+14.9445
+ 31
+0.0
+  0
+LINE
+  5
+124
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_back_outsideCutPath
+100
+AcDbLine
+ 10
+0.0
+ 20
+13.4815
+ 30
+0.0
+ 11
+0.0
+ 21
+12.0185
+ 31
+0.0
+  0
+LINE
+  5
+125
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_back_outsideCutPath
 100
 AcDbLine
  10
@@ -5751,37 +6207,13 @@ AcDbLine
   0
 LINE
   5
-113
+126
 330
 70
 100
 AcDbEntity
   8
-claytime_box v5_back_outsideCutPath
-100
-AcDbLine
- 10
-0.0
- 20
-14.9445
- 30
-0.0
- 11
-0.3
- 21
-14.9445
- 31
-0.0
-  0
-LINE
-  5
-114
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_back_outsideCutPath
+claytime_box v7_back_outsideCutPath
 100
 AcDbLine
  10
@@ -5799,13 +6231,13 @@ AcDbLine
   0
 LINE
   5
-115
+127
 330
 70
 100
 AcDbEntity
   8
-claytime_box v5_back_outsideCutPath
+claytime_box v7_back_outsideCutPath
 100
 AcDbLine
  10
@@ -5823,457 +6255,25 @@ AcDbLine
   0
 LINE
   5
-116
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_back_outsideCutPath
-100
-AcDbLine
- 10
-0.0
- 20
-16.8
- 30
-0.0
- 11
-0.0
- 21
-14.9445
- 31
-0.0
-  0
-LINE
-  5
-117
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_back_outsideCutPath
-100
-AcDbLine
- 10
-0.3
- 20
-14.9445
- 30
-0.0
- 11
-0.3
- 21
-13.4815
- 31
-0.0
-  0
-LINE
-  5
-118
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_back_outsideCutPath
-100
-AcDbLine
- 10
-0.3
- 20
-13.4815
- 30
-0.0
- 11
-0.0
- 21
-13.4815
- 31
-0.0
-  0
-LINE
-  5
-119
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_back_outsideCutPath
-100
-AcDbLine
- 10
-0.0
- 20
-13.4815
- 30
-0.0
- 11
-0.0
- 21
-12.0185
- 31
-0.0
-  0
-LINE
-  5
-11A
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_back_outsideCutPath
-100
-AcDbLine
- 10
-28.5
- 20
-6.5
- 30
-0.0
- 11
-27.5
- 21
-5.5
- 31
-0.0
-  0
-LINE
-  5
-11B
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_back_outsideCutPath
-100
-AcDbLine
- 10
-30.3
- 20
-6.5
- 30
-0.0
- 11
-29.3
- 21
-5.5
- 31
-0.0
-  0
-LINE
-  5
-11C
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_back_outsideCutPath
-100
-AcDbLine
- 10
-29.3
- 20
-6.5
- 30
-0.0
- 11
-30.3
- 21
-6.5
- 31
-0.0
-  0
-LINE
-  5
-11D
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_back_outsideCutPath
-100
-AcDbLine
- 10
-7.494499999999999
- 20
-16.8
- 30
-0.0
- 11
-6.0315
- 21
-16.8
- 31
-0.0
-  0
-LINE
-  5
-11E
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_back_outsideCutPath
-100
-AcDbLine
- 10
-6.0315
- 20
-16.8
- 30
-0.0
- 11
-6.0315
- 21
-16.5
- 31
-0.0
-  0
-LINE
-  5
-11F
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_back_outsideCutPath
-100
-AcDbLine
- 10
-1.6425
- 20
-16.5
- 30
-0.0
- 11
-1.6425
- 21
-16.8
- 31
-0.0
-  0
-LINE
-  5
-120
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_back_outsideCutPath
-100
-AcDbLine
- 10
-26.0
- 20
-12.0
- 30
-0.0
- 11
-26.0
- 21
-10.65
- 31
-0.0
-  0
-LINE
-  5
-121
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_back_outsideCutPath
-100
-AcDbLine
- 10
-4.5685
- 20
-9.0
- 30
-0.0
- 11
-6.0315
- 21
-9.0
- 31
-0.0
-  0
-LINE
-  5
-122
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_back_outsideCutPath
-100
-AcDbLine
- 10
-4.5685
- 20
-16.5
- 30
-0.0
- 11
-4.5685
- 21
-16.8
- 31
-0.0
-  0
-LINE
-  5
-123
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_back_outsideCutPath
-100
-AcDbLine
- 10
-10.3
- 20
-10.5555
- 30
-0.0
- 11
-10.3
- 21
-12.0185
- 31
-0.0
-  0
-LINE
-  5
-124
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_back_outsideCutPath
-100
-AcDbLine
- 10
-10.6
- 20
-16.8
- 30
-0.0
- 11
-8.957500000000001
- 21
-16.8
- 31
-0.0
-  0
-LINE
-  5
-125
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_back_outsideCutPath
-100
-AcDbLine
- 10
-6.0315
- 20
-16.5
- 30
-0.0
- 11
-4.5685
- 21
-16.5
- 31
-0.0
-  0
-LINE
-  5
-126
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_back_outsideCutPath
-100
-AcDbLine
- 10
-29.6
- 20
-5.0
- 30
-0.0
- 11
-30.6
- 21
-6.0
- 31
-0.0
-  0
-LINE
-  5
-127
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_back_outsideCutPath
-100
-AcDbLine
- 10
-30.6
- 20
-5.0
- 30
-0.0
- 11
-29.6
- 21
-5.0
- 31
-0.0
-  0
-LINE
-  5
 128
 330
 70
 100
 AcDbEntity
   8
-claytime_box v5_back_outsideCutPath
+claytime_box v7_back_outsideCutPath
 100
 AcDbLine
  10
-30.6
+0.3
  20
-6.0
+14.9445
  30
 0.0
  11
-30.6
+0.3
  21
-5.0
+13.4815
  31
 0.0
   0
@@ -6285,19 +6285,19 @@ LINE
 100
 AcDbEntity
   8
-claytime_box v5_back_outsideCutPath
+claytime_box v7_back_outsideCutPath
 100
 AcDbLine
  10
-26.80000034719706
+0.0
  20
-12.50000018626451
+9.092499999999999
  30
 0.0
  11
-27.30000034719706
+0.0
  21
-12.50000018626451
+8.700000000000001
  31
 0.0
   0
@@ -6309,19 +6309,19 @@ LINE
 100
 AcDbEntity
   8
-claytime_box v5_back_outsideCutPath
+claytime_box v7_back_outsideCutPath
 100
 AcDbLine
  10
-27.30000034719706
+0.0
  20
-12.50000018626451
+8.700000000000001
  30
 0.0
  11
-27.30000034719706
+1.6425
  21
-11.50000018626451
+8.700000000000001
  31
 0.0
   0
@@ -6333,19 +6333,19 @@ LINE
 100
 AcDbEntity
   8
-claytime_box v5_back_outsideCutPath
+claytime_box v7_back_outsideCutPath
 100
 AcDbLine
  10
-10.6
+1.6425
  20
 8.700000000000001
  30
 0.0
  11
-10.6
+1.6425
  21
-10.5555
+9.0
  31
 0.0
   0
@@ -6357,17 +6357,17 @@ LINE
 100
 AcDbEntity
   8
-claytime_box v5_back_outsideCutPath
+claytime_box v7_back_outsideCutPath
 100
 AcDbLine
  10
-7.494499999999999
+1.6425
  20
 9.0
  30
 0.0
  11
-8.957500000000001
+3.1055
  21
 9.0
  31
@@ -6381,17 +6381,17 @@ LINE
 100
 AcDbEntity
   8
-claytime_box v5_back_outsideCutPath
+claytime_box v7_back_outsideCutPath
 100
 AcDbLine
  10
-1.6425
+4.5685
  20
 9.0
  30
 0.0
  11
-3.1055
+6.0315
  21
 9.0
  31
@@ -6405,19 +6405,19 @@ LINE
 100
 AcDbEntity
   8
-claytime_box v5_back_outsideCutPath
+claytime_box v7_back_outsideCutPath
 100
 AcDbLine
  10
-10.6
+6.0315
  20
-14.9445
+9.0
  30
 0.0
  11
-10.6
+6.0315
  21
-16.4075
+8.700000000000001
  31
 0.0
   0
@@ -6429,11 +6429,11 @@ LINE
 100
 AcDbEntity
   8
-claytime_box v5_back_outsideCutPath
+claytime_box v7_back_outsideCutPath
 100
 AcDbLine
  10
-7.494499999999999
+6.0315
  20
 8.700000000000001
  30
@@ -6441,7 +6441,7 @@ AcDbLine
  11
 7.494499999999999
  21
-9.0
+8.700000000000001
  31
 0.0
   0
@@ -6453,19 +6453,19 @@ LINE
 100
 AcDbEntity
   8
-claytime_box v5_back_outsideCutPath
+claytime_box v7_back_outsideCutPath
 100
 AcDbLine
  10
-8.957500000000001
+10.3
  20
-16.8
+10.5555
  30
 0.0
  11
-8.957500000000001
+10.3
  21
-16.5
+12.0185
  31
 0.0
   0
@@ -6477,19 +6477,19 @@ LINE
 100
 AcDbEntity
   8
-claytime_box v5_back_outsideCutPath
+claytime_box v7_back_outsideCutPath
 100
 AcDbLine
  10
-27.5
+29.10000043362379
  20
-5.5
+6.000000089406967
  30
 0.0
  11
-27.5
+29.40000043809414
  21
-6.5
+5.700000084936618
  31
 0.0
   0
@@ -6501,31 +6501,7 @@ LINE
 100
 AcDbEntity
   8
-claytime_box v5_back_outsideCutPath
-100
-AcDbLine
- 10
-10.3
- 20
-14.9445
- 30
-0.0
- 11
-10.6
- 21
-14.9445
- 31
-0.0
-  0
-LINE
-  5
-133
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_back_outsideCutPath
+claytime_box v7_back_outsideCutPath
 100
 AcDbLine
  10
@@ -6543,109 +6519,13 @@ AcDbLine
   0
 LINE
   5
-134
+133
 330
 70
 100
 AcDbEntity
   8
-claytime_box v5_back_outsideCutPath
-100
-AcDbLine
- 10
-27.8
- 20
-5.0
- 30
-0.0
- 11
-28.8
- 21
-6.0
- 31
-0.0
-  0
-LINE
-  5
-135
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_back_outsideCutPath
-100
-AcDbLine
- 10
-10.6
- 20
-10.5555
- 30
-0.0
- 11
-10.3
- 21
-10.5555
- 31
-0.0
-  0
-LINE
-  5
-136
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_back_outsideCutPath
-100
-AcDbLine
- 10
-24.0
- 20
-10.65
- 30
-0.0
- 11
-24.0
- 21
-12.0
- 31
-0.0
-  0
-LINE
-  5
-137
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_back_outsideCutPath
-100
-AcDbLine
- 10
-4.5685
- 20
-8.700000000000001
- 30
-0.0
- 11
-4.5685
- 21
-9.0
- 31
-0.0
-  0
-LINE
-  5
-138
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_back_outsideCutPath
+claytime_box v7_back_outsideCutPath
 100
 AcDbLine
  10
@@ -6663,25 +6543,145 @@ AcDbLine
   0
 LINE
   5
+134
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_back_outsideCutPath
+100
+AcDbLine
+ 10
+1.6425
+ 20
+16.8
+ 30
+0.0
+ 11
+0.0
+ 21
+16.8
+ 31
+0.0
+  0
+LINE
+  5
+135
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_back_outsideCutPath
+100
+AcDbLine
+ 10
+24.15
+ 20
+10.65
+ 30
+0.0
+ 11
+24.15
+ 21
+12.00000017881393
+ 31
+0.0
+  0
+LINE
+  5
+136
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_back_outsideCutPath
+100
+AcDbLine
+ 10
+27.30000034719706
+ 20
+12.50000018626451
+ 30
+0.0
+ 11
+27.30000034719706
+ 21
+11.50000018626451
+ 31
+0.0
+  0
+LINE
+  5
+137
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_back_outsideCutPath
+100
+AcDbLine
+ 10
+10.6
+ 20
+10.5555
+ 30
+0.0
+ 11
+10.3
+ 21
+10.5555
+ 31
+0.0
+  0
+LINE
+  5
+138
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_back_outsideCutPath
+100
+AcDbLine
+ 10
+30.90000043362379
+ 20
+6.000000089406967
+ 30
+0.0
+ 11
+30.90000043362379
+ 21
+5.5
+ 31
+0.0
+  0
+LINE
+  5
 139
 330
 70
 100
 AcDbEntity
   8
-claytime_box v5_back_outsideCutPath
+claytime_box v7_back_outsideCutPath
 100
 AcDbLine
  10
-29.3
+24.50000036507845
  20
-5.5
+12.00000017881393
  30
 0.0
  11
-29.3
+24.15
  21
-6.5
+12.00000017881393
  31
 0.0
   0
@@ -6693,19 +6693,19 @@ LINE
 100
 AcDbEntity
   8
-claytime_box v5_back_outsideCutPath
+claytime_box v7_back_outsideCutPath
 100
 AcDbLine
  10
-28.8
+27.8
  20
-6.0
+5.0
  30
 0.0
  11
 28.8
  21
-5.0
+6.0
  31
 0.0
   0
@@ -6717,7 +6717,415 @@ LINE
 100
 AcDbEntity
   8
-claytime_box v5_back_outsideCutPath
+claytime_box v7_back_outsideCutPath
+100
+AcDbLine
+ 10
+30.90000043362379
+ 20
+5.000000074505805
+ 30
+0.0
+ 11
+29.6
+ 21
+5.0
+ 31
+0.0
+  0
+LINE
+  5
+13C
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_back_outsideCutPath
+100
+AcDbLine
+ 10
+6.0315
+ 20
+16.8
+ 30
+0.0
+ 11
+6.0315
+ 21
+16.5
+ 31
+0.0
+  0
+LINE
+  5
+13D
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_back_outsideCutPath
+100
+AcDbLine
+ 10
+10.6
+ 20
+14.9445
+ 30
+0.0
+ 11
+10.6
+ 21
+16.4075
+ 31
+0.0
+  0
+LINE
+  5
+13E
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_back_outsideCutPath
+100
+AcDbLine
+ 10
+29.10000043362379
+ 20
+5.000000074505805
+ 30
+0.0
+ 11
+29.40000043809414
+ 21
+5.000000074505805
+ 31
+0.0
+  0
+LINE
+  5
+13F
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_back_outsideCutPath
+100
+AcDbLine
+ 10
+7.494499999999999
+ 20
+16.5
+ 30
+0.0
+ 11
+7.494499999999999
+ 21
+16.8
+ 31
+0.0
+  0
+LINE
+  5
+140
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_back_outsideCutPath
+100
+AcDbLine
+ 10
+23.0
+ 20
+10.65
+ 30
+0.0
+ 11
+16.0
+ 21
+10.65
+ 31
+0.0
+  0
+LINE
+  5
+141
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_back_outsideCutPath
+100
+AcDbLine
+ 10
+25.5
+ 20
+10.65
+ 30
+0.0
+ 11
+24.15
+ 21
+10.65
+ 31
+0.0
+  0
+LINE
+  5
+142
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_back_outsideCutPath
+100
+AcDbLine
+ 10
+28.8
+ 20
+5.5
+ 30
+0.0
+ 11
+29.10000043362379
+ 21
+5.5
+ 31
+0.0
+  0
+LINE
+  5
+143
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_back_outsideCutPath
+100
+AcDbLine
+ 10
+3.1055
+ 20
+16.8
+ 30
+0.0
+ 11
+3.1055
+ 21
+16.5
+ 31
+0.0
+  0
+LINE
+  5
+144
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_back_outsideCutPath
+100
+AcDbLine
+ 10
+23.0
+ 20
+12.0
+ 30
+0.0
+ 11
+23.0
+ 21
+10.65
+ 31
+0.0
+  0
+LINE
+  5
+145
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_back_outsideCutPath
+100
+AcDbLine
+ 10
+3.1055
+ 20
+16.5
+ 30
+0.0
+ 11
+1.6425
+ 21
+16.5
+ 31
+0.0
+  0
+LINE
+  5
+146
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_back_outsideCutPath
+100
+AcDbLine
+ 10
+30.6
+ 20
+6.0
+ 30
+0.0
+ 11
+30.6
+ 21
+5.5
+ 31
+0.0
+  0
+LINE
+  5
+147
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_back_outsideCutPath
+100
+AcDbLine
+ 10
+4.5685
+ 20
+16.8
+ 30
+0.0
+ 11
+3.1055
+ 21
+16.8
+ 31
+0.0
+  0
+LINE
+  5
+148
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_back_outsideCutPath
+100
+AcDbLine
+ 10
+-0.5
+ 20
+16.5
+ 30
+0.0
+ 11
+-0.5
+ 21
+10.0
+ 31
+0.0
+  0
+LINE
+  5
+149
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_back_outsideCutPath
+100
+AcDbLine
+ 10
+10.3
+ 20
+13.4815
+ 30
+0.0
+ 11
+10.3
+ 21
+14.9445
+ 31
+0.0
+  0
+LINE
+  5
+14A
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_back_outsideCutPath
+100
+AcDbLine
+ 10
+1.6425
+ 20
+16.5
+ 30
+0.0
+ 11
+1.6425
+ 21
+16.8
+ 31
+0.0
+  0
+LINE
+  5
+14B
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_back_outsideCutPath
+100
+AcDbLine
+ 10
+8.957500000000001
+ 20
+16.5
+ 30
+0.0
+ 11
+7.494499999999999
+ 21
+16.5
+ 31
+0.0
+  0
+LINE
+  5
+14C
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_back_outsideCutPath
 100
 AcDbLine
  10
@@ -6735,61 +7143,301 @@ AcDbLine
   0
 LINE
   5
-13C
+14D
 330
 70
 100
 AcDbEntity
   8
-claytime_box v5_back_outsideCutPath
+claytime_box v7_back_outsideCutPath
+100
+AcDbLine
+ 10
+30.90000043362379
+ 20
+6.000000089406967
+ 30
+0.0
+ 11
+31.20000043809414
+ 21
+5.700000084936618
+ 31
+0.0
+  0
+LINE
+  5
+14E
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_back_outsideCutPath
+100
+AcDbLine
+ 10
+16.0
+ 20
+10.65
+ 30
+0.0
+ 11
+16.0
+ 21
+12.0
+ 31
+0.0
+  0
+LINE
+  5
+14F
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_back_outsideCutPath
+100
+AcDbLine
+ 10
+24.50000036507845
+ 20
+12.65
+ 30
+0.0
+ 11
+25.5
+ 21
+12.65
+ 31
+0.0
+  0
+LINE
+  5
+150
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_back_outsideCutPath
+100
+AcDbLine
+ 10
+10.6
+ 20
+13.4815
+ 30
+0.0
+ 11
+10.3
+ 21
+13.4815
+ 31
+0.0
+  0
+LINE
+  5
+151
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_back_outsideCutPath
+100
+AcDbLine
+ 10
+8.957500000000001
+ 20
+8.700000000000001
+ 30
+0.0
+ 11
+10.6
+ 21
+8.700000000000001
+ 31
+0.0
+  0
+LINE
+  5
+152
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_back_outsideCutPath
 100
 AcDbLine
  10
 6.0315
  20
-8.700000000000001
+16.5
  30
 0.0
  11
-7.494499999999999
+4.5685
  21
-8.700000000000001
+16.5
  31
 0.0
   0
 LINE
   5
-13D
+153
 330
 70
 100
 AcDbEntity
   8
-claytime_box v5_back_outsideCutPath
+claytime_box v7_back_outsideCutPath
 100
 AcDbLine
  10
-24.0
+25.5
  20
-12.0
+12.65
  30
 0.0
  11
-26.0
+25.5
  21
-12.0
+10.65
  31
 0.0
   0
 LINE
   5
-13E
+154
 330
 70
 100
 AcDbEntity
   8
-claytime_box v5_back_outsideCutPath
+claytime_box v7_back_outsideCutPath
+100
+AcDbLine
+ 10
+29.10000043362379
+ 20
+5.000000074505805
+ 30
+0.0
+ 11
+27.8
+ 21
+5.0
+ 31
+0.0
+  0
+LINE
+  5
+155
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_back_outsideCutPath
+100
+AcDbLine
+ 10
+4.5685
+ 20
+16.5
+ 30
+0.0
+ 11
+4.5685
+ 21
+16.8
+ 31
+0.0
+  0
+LINE
+  5
+156
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_back_outsideCutPath
+100
+AcDbLine
+ 10
+10.3
+ 20
+12.0185
+ 30
+0.0
+ 11
+10.6
+ 21
+12.0185
+ 31
+0.0
+  0
+LINE
+  5
+157
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_back_outsideCutPath
+100
+AcDbLine
+ 10
+26.80000034719706
+ 20
+12.50000018626451
+ 30
+0.0
+ 11
+27.30000034719706
+ 21
+12.50000018626451
+ 31
+0.0
+  0
+LINE
+  5
+158
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_back_outsideCutPath
+100
+AcDbLine
+ 10
+10.6
+ 20
+16.8
+ 30
+0.0
+ 11
+8.957500000000001
+ 21
+16.8
+ 31
+0.0
+  0
+LINE
+  5
+159
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_back_outsideCutPath
 100
 AcDbLine
  10
@@ -6807,673 +7455,25 @@ AcDbLine
   0
 LINE
   5
-13F
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_back_outsideCutPath
-100
-AcDbLine
- 10
-16.0
- 20
-14.0
- 30
-0.0
- 11
-23.0
- 21
-14.0
- 31
-0.0
-  0
-LINE
-  5
-140
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_back_outsideCutPath
-100
-AcDbLine
- 10
-23.0
- 20
-14.0
- 30
-0.0
- 11
-23.0
- 21
-12.6
- 31
-0.0
-  0
-LINE
-  5
-141
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_back_outsideCutPath
-100
-AcDbLine
- 10
-23.0
- 20
-12.6
- 30
-0.0
- 11
-16.0
- 21
-12.6
- 31
-0.0
-  0
-LINE
-  5
-142
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_back_outsideCutPath
-100
-AcDbLine
- 10
-0.0
- 20
-8.700000000000001
- 30
-0.0
- 11
-1.6425
- 21
-8.700000000000001
- 31
-0.0
-  0
-LINE
-  5
-143
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_back_outsideCutPath
-100
-AcDbLine
- 10
-1.6425
- 20
-8.700000000000001
- 30
-0.0
- 11
-1.6425
- 21
-9.0
- 31
-0.0
-  0
-LINE
-  5
-144
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_back_outsideCutPath
-100
-AcDbLine
- 10
-10.3
- 20
-13.4815
- 30
-0.0
- 11
-10.3
- 21
-14.9445
- 31
-0.0
-  0
-LINE
-  5
-145
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_back_outsideCutPath
-100
-AcDbLine
- 10
-8.957500000000001
- 20
-9.0
- 30
-0.0
- 11
-8.957500000000001
- 21
-8.700000000000001
- 31
-0.0
-  0
-LINE
-  5
-146
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_back_outsideCutPath
-100
-AcDbLine
- 10
-26.0
- 20
-10.65
- 30
-0.0
- 11
-24.0
- 21
-10.65
- 31
-0.0
-  0
-LINE
-  5
-147
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_back_outsideCutPath
-100
-AcDbLine
- 10
-27.5
- 20
-6.5
- 30
-0.0
- 11
-28.5
- 21
-6.5
- 31
-0.0
-  0
-LINE
-  5
-148
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_back_outsideCutPath
-100
-AcDbLine
- 10
-8.957500000000001
- 20
-16.5
- 30
-0.0
- 11
-7.494499999999999
- 21
-16.5
- 31
-0.0
-  0
-LINE
-  5
-149
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_back_outsideCutPath
-100
-AcDbLine
- 10
-3.1055
- 20
-16.8
- 30
-0.0
- 11
-3.1055
- 21
-16.5
- 31
-0.0
-  0
-LINE
-  5
-14A
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_back_outsideCutPath
-100
-AcDbLine
- 10
-3.1055
- 20
-9.0
- 30
-0.0
- 11
-3.1055
- 21
-8.700000000000001
- 31
-0.0
-  0
-LINE
-  5
-14B
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_back_outsideCutPath
-100
-AcDbLine
- 10
-0.0
- 20
-9.092499999999999
- 30
-0.0
- 11
-0.0
- 21
-8.700000000000001
- 31
-0.0
-  0
-LINE
-  5
-14C
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_back_outsideCutPath
-100
-AcDbLine
- 10
-16.0
- 20
-12.0
- 30
-0.0
- 11
-23.0
- 21
-12.0
- 31
-0.0
-  0
-LINE
-  5
-14D
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_back_outsideCutPath
-100
-AcDbLine
- 10
-28.8
- 20
-5.0
- 30
-0.0
- 11
-27.8
- 21
-5.0
- 31
-0.0
-  0
-LINE
-  5
-14E
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_back_outsideCutPath
-100
-AcDbLine
- 10
-8.957500000000001
- 20
-8.700000000000001
- 30
-0.0
- 11
-10.6
- 21
-8.700000000000001
- 31
-0.0
-  0
-LINE
-  5
-14F
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_back_outsideCutPath
-100
-AcDbLine
- 10
-23.0
- 20
-12.0
- 30
-0.0
- 11
-23.0
- 21
-10.65
- 31
-0.0
-  0
-LINE
-  5
-150
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_back_outsideCutPath
-100
-AcDbLine
- 10
-4.5685
- 20
-16.8
- 30
-0.0
- 11
-3.1055
- 21
-16.8
- 31
-0.0
-  0
-LINE
-  5
-151
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_back_outsideCutPath
-100
-AcDbLine
- 10
-6.0315
- 20
-9.0
- 30
-0.0
- 11
-6.0315
- 21
-8.700000000000001
- 31
-0.0
-  0
-LINE
-  5
-152
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_back_outsideCutPath
-100
-AcDbLine
- 10
-3.1055
- 20
-8.700000000000001
- 30
-0.0
- 11
-4.5685
- 21
-8.700000000000001
- 31
-0.0
-  0
-LINE
-  5
-153
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_back_outsideCutPath
-100
-AcDbLine
- 10
-1.6425
- 20
-16.8
- 30
-0.0
- 11
-0.0
- 21
-16.8
- 31
-0.0
-  0
-LINE
-  5
-154
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_back_outsideCutPath
-100
-AcDbLine
- 10
-3.1055
- 20
-16.5
- 30
-0.0
- 11
-1.6425
- 21
-16.5
- 31
-0.0
-  0
-LINE
-  5
-155
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_back_outsideCutPath
-100
-AcDbLine
- 10
-7.494499999999999
- 20
-16.5
- 30
-0.0
- 11
-7.494499999999999
- 21
-16.8
- 31
-0.0
-  0
-LINE
-  5
-156
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_back_outsideCutPath
-100
-AcDbLine
- 10
-23.0
- 20
-10.65
- 30
-0.0
- 11
-16.0
- 21
-10.65
- 31
-0.0
-  0
-LINE
-  5
-157
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_back_outsideCutPath
-100
-AcDbLine
- 10
-16.0
- 20
-10.65
- 30
-0.0
- 11
-16.0
- 21
-12.0
- 31
-0.0
-  0
-LINE
-  5
-158
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_back_outsideCutPath
-100
-AcDbLine
- 10
-10.3
- 20
-12.0185
- 30
-0.0
- 11
-10.6
- 21
-12.0185
- 31
-0.0
-  0
-LINE
-  5
-159
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_back_outsideCutPath
-100
-AcDbLine
- 10
-10.6
- 20
-13.4815
- 30
-0.0
- 11
-10.3
- 21
-13.4815
- 31
-0.0
-  0
-LINE
-  5
 15A
 330
 70
 100
 AcDbEntity
   8
-claytime_box v5_back_outsideCutPath
+claytime_box v7_back_outsideCutPath
 100
 AcDbLine
  10
-26.0
+29.10000043362379
  20
-12.6
+6.000000089406967
  30
 0.0
  11
-24.0
+29.10000043362379
  21
-12.6
+5.5
  31
 0.0
   0
@@ -7485,19 +7485,19 @@ LINE
 100
 AcDbEntity
   8
-claytime_box v5_back_outsideCutPath
+claytime_box v7_back_outsideCutPath
 100
 AcDbLine
  10
-24.0
+29.40000043809414
  20
-12.6
+5.700000084936618
  30
 0.0
  11
-24.0
+29.40000043809414
  21
-14.0
+5.000000074505805
  31
 0.0
   0
@@ -7509,19 +7509,19 @@ LINE
 100
 AcDbEntity
   8
-claytime_box v5_back_outsideCutPath
+claytime_box v7_back_outsideCutPath
 100
 AcDbLine
  10
-26.0
+31.20000043809414
  20
-14.0
+5.700000084936618
  30
 0.0
  11
-26.0
+31.20000043809414
  21
-12.6
+5.000000074505805
  31
 0.0
   0
@@ -7533,19 +7533,19 @@ LINE
 100
 AcDbEntity
   8
-claytime_box v5_back_outsideCutPath
+claytime_box v7_back_outsideCutPath
 100
 AcDbLine
  10
-24.0
+10.6
  20
-14.0
+8.700000000000001
  30
 0.0
  11
-26.0
+10.6
  21
-14.0
+10.5555
  31
 0.0
   0
@@ -7557,19 +7557,43 @@ LINE
 100
 AcDbEntity
   8
-claytime_box v5_back_outsideCutPath
+claytime_box v7_back_outsideCutPath
 100
 AcDbLine
  10
-16.0
+28.8
  20
-12.6
+6.0
  30
 0.0
  11
-16.0
+28.8
  21
-14.0
+5.5
+ 31
+0.0
+  0
+LINE
+  5
+15F
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_back_outsideCutPath
+100
+AcDbLine
+ 10
+10.3
+ 20
+14.9445
+ 30
+0.0
+ 11
+10.6
+ 21
+14.9445
  31
 0.0
   0
@@ -7581,19 +7605,19 @@ LINE
 100
 AcDbEntity
   8
-claytime_box v5_right_outsideCutPath
+claytime_box v7_back_outsideCutPath
 100
 AcDbLine
  10
-15.5
+7.494499999999999
  20
-14.9445
+16.8
  30
 0.0
  11
-15.2
+6.0315
  21
-14.9445
+16.8
  31
 0.0
   0
@@ -7605,19 +7629,19 @@ LINE
 100
 AcDbEntity
   8
-claytime_box v5_right_outsideCutPath
+claytime_box v7_back_outsideCutPath
 100
 AcDbLine
  10
-10.9
+29.6
  20
-13.4815
+5.0
  30
 0.0
  11
-11.2
+30.6
  21
-13.4815
+6.0
  31
 0.0
   0
@@ -7629,19 +7653,19 @@ LINE
 100
 AcDbEntity
   8
-claytime_box v5_right_outsideCutPath
+claytime_box v7_back_outsideCutPath
 100
 AcDbLine
  10
-13.9315
+16.0
  20
-8.700000000000001
+12.0
  30
 0.0
  11
-15.2
+23.0
  21
-8.700000000000001
+12.0
  31
 0.0
   0
@@ -7653,19 +7677,19 @@ LINE
 100
 AcDbEntity
   8
-claytime_box v5_right_outsideCutPath
+claytime_box v7_back_outsideCutPath
 100
 AcDbLine
  10
-10.9
+30.6
  20
-12.0185
+5.5
  30
 0.0
  11
-10.9
+30.90000043362379
  21
-10.5555
+5.5
  31
 0.0
   0
@@ -7677,19 +7701,19 @@ LINE
 100
 AcDbEntity
   8
-claytime_box v5_right_outsideCutPath
+claytime_box v7_back_outsideCutPath
 100
 AcDbLine
  10
-11.2
+30.90000043362379
  20
-9.092499999999999
+5.000000074505805
  30
 0.0
  11
-11.2
+31.20000043809414
  21
-8.700000000000001
+5.000000074505805
  31
 0.0
   0
@@ -7701,19 +7725,19 @@ LINE
 100
 AcDbEntity
   8
-claytime_box v5_right_outsideCutPath
+claytime_box v7_back_outsideCutPath
 100
 AcDbLine
  10
-15.2
+24.50000036507845
  20
-13.4815
+12.65
  30
 0.0
  11
-15.5
+24.50000036507845
  21
-13.4815
+12.00000017881393
  31
 0.0
   0
@@ -7725,43 +7749,19 @@ LINE
 100
 AcDbEntity
   8
-claytime_box v5_right_outsideCutPath
+claytime_box v7_back_outsideCutPath
 100
 AcDbLine
  10
-11.2
+8.957500000000001
  20
-13.4815
+16.8
  30
 0.0
  11
-11.2
+8.957500000000001
  21
-12.0185
- 31
-0.0
-  0
-LINE
-  5
-167
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_right_outsideCutPath
-100
-AcDbLine
- 10
-11.2
- 20
-14.9445
- 30
-0.0
- 11
-10.9
- 21
-14.9445
+16.5
  31
 0.0
   0
@@ -7773,19 +7773,19 @@ LINE
 100
 AcDbEntity
   8
-claytime_box v5_right_outsideCutPath
+claytime_box v7_right_outsideCutPath
 100
 AcDbLine
  10
-13.9315
+11.2
  20
-9.0
+16.8
  30
 0.0
  11
-13.9315
+11.2
  21
-8.700000000000001
+14.9445
  31
 0.0
   0
@@ -7797,19 +7797,19 @@ LINE
 100
 AcDbEntity
   8
-claytime_box v5_right_outsideCutPath
+claytime_box v7_right_outsideCutPath
 100
 AcDbLine
  10
-15.2
+11.2
  20
-16.4075
+12.0185
  30
 0.0
  11
-15.2
+10.9
  21
-16.8
+12.0185
  31
 0.0
   0
@@ -7821,17 +7821,17 @@ LINE
 100
 AcDbEntity
   8
-claytime_box v5_right_outsideCutPath
+claytime_box v7_right_outsideCutPath
 100
 AcDbLine
  10
 10.9
  20
-10.5555
+12.0185
  30
 0.0
  11
-11.2
+10.9
  21
 10.5555
  31
@@ -7845,7 +7845,31 @@ LINE
 100
 AcDbEntity
   8
-claytime_box v5_right_outsideCutPath
+claytime_box v7_right_outsideCutPath
+100
+AcDbLine
+ 10
+10.9
+ 20
+10.5555
+ 30
+0.0
+ 11
+11.2
+ 21
+10.5555
+ 31
+0.0
+  0
+LINE
+  5
+16C
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_right_outsideCutPath
 100
 AcDbLine
  10
@@ -7863,49 +7887,25 @@ AcDbLine
   0
 LINE
   5
-16C
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_right_outsideCutPath
-100
-AcDbLine
- 10
-11.2
- 20
-12.0185
- 30
-0.0
- 11
-10.9
- 21
-12.0185
- 31
-0.0
-  0
-LINE
-  5
 16D
 330
 70
 100
 AcDbEntity
   8
-claytime_box v5_right_outsideCutPath
+claytime_box v7_right_outsideCutPath
 100
 AcDbLine
  10
-12.4685
+11.2
  20
-8.700000000000001
+14.9445
  30
 0.0
  11
-12.4685
+10.9
  21
-9.0
+14.9445
  31
 0.0
   0
@@ -7917,31 +7917,7 @@ LINE
 100
 AcDbEntity
   8
-claytime_box v5_right_outsideCutPath
-100
-AcDbLine
- 10
-15.2
- 20
-8.700000000000001
- 30
-0.0
- 11
-15.2
- 21
-10.5555
- 31
-0.0
-  0
-LINE
-  5
-16F
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_right_outsideCutPath
+claytime_box v7_right_outsideCutPath
 100
 AcDbLine
  10
@@ -7959,13 +7935,277 @@ AcDbLine
   0
 LINE
   5
+16F
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_right_outsideCutPath
+100
+AcDbLine
+ 10
+10.9
+ 20
+13.4815
+ 30
+0.0
+ 11
+11.2
+ 21
+13.4815
+ 31
+0.0
+  0
+LINE
+  5
 170
 330
 70
 100
 AcDbEntity
   8
-claytime_box v5_right_outsideCutPath
+claytime_box v7_right_outsideCutPath
+100
+AcDbLine
+ 10
+11.2
+ 20
+13.4815
+ 30
+0.0
+ 11
+11.2
+ 21
+12.0185
+ 31
+0.0
+  0
+LINE
+  5
+171
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_right_outsideCutPath
+100
+AcDbLine
+ 10
+12.4685
+ 20
+8.700000000000001
+ 30
+0.0
+ 11
+12.4685
+ 21
+9.0
+ 31
+0.0
+  0
+LINE
+  5
+172
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_right_outsideCutPath
+100
+AcDbLine
+ 10
+15.5
+ 20
+13.4815
+ 30
+0.0
+ 11
+15.5
+ 21
+14.9445
+ 31
+0.0
+  0
+LINE
+  5
+173
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_right_outsideCutPath
+100
+AcDbLine
+ 10
+15.2
+ 20
+16.4075
+ 30
+0.0
+ 11
+15.2
+ 21
+16.8
+ 31
+0.0
+  0
+LINE
+  5
+174
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_right_outsideCutPath
+100
+AcDbLine
+ 10
+11.2
+ 20
+9.092499999999999
+ 30
+0.0
+ 11
+11.2
+ 21
+8.700000000000001
+ 31
+0.0
+  0
+LINE
+  5
+175
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_right_outsideCutPath
+100
+AcDbLine
+ 10
+15.2
+ 20
+12.0185
+ 30
+0.0
+ 11
+15.2
+ 21
+13.4815
+ 31
+0.0
+  0
+LINE
+  5
+176
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_right_outsideCutPath
+100
+AcDbLine
+ 10
+13.9315
+ 20
+16.8
+ 30
+0.0
+ 11
+13.9315
+ 21
+16.5
+ 31
+0.0
+  0
+LINE
+  5
+177
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_right_outsideCutPath
+100
+AcDbLine
+ 10
+15.2
+ 20
+13.4815
+ 30
+0.0
+ 11
+15.5
+ 21
+13.4815
+ 31
+0.0
+  0
+LINE
+  5
+178
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_right_outsideCutPath
+100
+AcDbLine
+ 10
+12.4685
+ 20
+9.0
+ 30
+0.0
+ 11
+13.9315
+ 21
+9.0
+ 31
+0.0
+  0
+LINE
+  5
+179
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_right_outsideCutPath
+100
+AcDbLine
+ 10
+15.2
+ 20
+16.8
+ 30
+0.0
+ 11
+13.9315
+ 21
+16.8
+ 31
+0.0
+  0
+LINE
+  5
+17A
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_right_outsideCutPath
 100
 AcDbLine
  10
@@ -7983,13 +8223,157 @@ AcDbLine
   0
 LINE
   5
-171
+17B
 330
 70
 100
 AcDbEntity
   8
-claytime_box v5_right_outsideCutPath
+claytime_box v7_right_outsideCutPath
+100
+AcDbLine
+ 10
+15.2
+ 20
+8.700000000000001
+ 30
+0.0
+ 11
+15.2
+ 21
+10.5555
+ 31
+0.0
+  0
+LINE
+  5
+17C
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_right_outsideCutPath
+100
+AcDbLine
+ 10
+11.2
+ 20
+8.700000000000001
+ 30
+0.0
+ 11
+12.4685
+ 21
+8.700000000000001
+ 31
+0.0
+  0
+LINE
+  5
+17D
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_right_outsideCutPath
+100
+AcDbLine
+ 10
+13.9315
+ 20
+8.700000000000001
+ 30
+0.0
+ 11
+15.2
+ 21
+8.700000000000001
+ 31
+0.0
+  0
+LINE
+  5
+17E
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_right_outsideCutPath
+100
+AcDbLine
+ 10
+13.9315
+ 20
+9.0
+ 30
+0.0
+ 11
+13.9315
+ 21
+8.700000000000001
+ 31
+0.0
+  0
+LINE
+  5
+17F
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_right_outsideCutPath
+100
+AcDbLine
+ 10
+15.2
+ 20
+10.5555
+ 30
+0.0
+ 11
+15.5
+ 21
+10.5555
+ 31
+0.0
+  0
+LINE
+  5
+180
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_right_outsideCutPath
+100
+AcDbLine
+ 10
+13.9315
+ 20
+16.5
+ 30
+0.0
+ 11
+12.4685
+ 21
+16.5
+ 31
+0.0
+  0
+LINE
+  5
+181
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_right_outsideCutPath
 100
 AcDbLine
  10
@@ -8007,385 +8391,25 @@ AcDbLine
   0
 LINE
   5
-172
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_right_outsideCutPath
-100
-AcDbLine
- 10
-13.9315
- 20
-16.5
- 30
-0.0
- 11
-12.4685
- 21
-16.5
- 31
-0.0
-  0
-LINE
-  5
-173
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_right_outsideCutPath
-100
-AcDbLine
- 10
-12.4685
- 20
-16.8
- 30
-0.0
- 11
-11.2
- 21
-16.8
- 31
-0.0
-  0
-LINE
-  5
-174
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_right_outsideCutPath
-100
-AcDbLine
- 10
-15.5
- 20
-13.4815
- 30
-0.0
- 11
-15.5
- 21
-14.9445
- 31
-0.0
-  0
-LINE
-  5
-175
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_right_outsideCutPath
-100
-AcDbLine
- 10
-11.2
- 20
-16.8
- 30
-0.0
- 11
-11.2
- 21
-14.9445
- 31
-0.0
-  0
-LINE
-  5
-176
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_right_outsideCutPath
-100
-AcDbLine
- 10
-15.2
- 20
-10.5555
- 30
-0.0
- 11
-15.5
- 21
-10.5555
- 31
-0.0
-  0
-LINE
-  5
-177
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_right_outsideCutPath
-100
-AcDbLine
- 10
-13.9315
- 20
-16.8
- 30
-0.0
- 11
-13.9315
- 21
-16.5
- 31
-0.0
-  0
-LINE
-  5
-178
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_right_outsideCutPath
-100
-AcDbLine
- 10
-15.2
- 20
-16.8
- 30
-0.0
- 11
-13.9315
- 21
-16.8
- 31
-0.0
-  0
-LINE
-  5
-179
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_right_outsideCutPath
-100
-AcDbLine
- 10
-12.4685
- 20
-16.5
- 30
-0.0
- 11
-12.4685
- 21
-16.8
- 31
-0.0
-  0
-LINE
-  5
-17A
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_right_outsideCutPath
-100
-AcDbLine
- 10
-15.2
- 20
-12.0185
- 30
-0.0
- 11
-15.2
- 21
-13.4815
- 31
-0.0
-  0
-LINE
-  5
-17B
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_right_outsideCutPath
-100
-AcDbLine
- 10
-11.2
- 20
-8.700000000000001
- 30
-0.0
- 11
-12.4685
- 21
-8.700000000000001
- 31
-0.0
-  0
-LINE
-  5
-17C
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_right_outsideCutPath
-100
-AcDbLine
- 10
-15.5
- 20
-12.0185
- 30
-0.0
- 11
-15.2
- 21
-12.0185
- 31
-0.0
-  0
-LINE
-  5
-17D
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_right_outsideCutPath
-100
-AcDbLine
- 10
-12.4685
- 20
-9.0
- 30
-0.0
- 11
-13.9315
- 21
-9.0
- 31
-0.0
-  0
-LINE
-  5
-17F
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_bottom_outsideCutPath
-100
-AcDbLine
- 10
-23.2945
- 20
-9.8
- 30
-0.0
- 11
-23.2945
- 21
-9.5
- 31
-0.0
-  0
-LINE
-  5
-180
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_bottom_outsideCutPath
-100
-AcDbLine
- 10
-18.9055
- 20
-5.2
- 30
-0.0
- 11
-18.9055
- 21
-5.5
- 31
-0.0
-  0
-LINE
-  5
-181
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_bottom_outsideCutPath
-100
-AcDbLine
- 10
-17.4425
- 20
-5.2
- 30
-0.0
- 11
-18.9055
- 21
-5.2
- 31
-0.0
-  0
-LINE
-  5
 182
 330
 70
 100
 AcDbEntity
   8
-claytime_box v5_bottom_outsideCutPath
+claytime_box v7_right_outsideCutPath
 100
 AcDbLine
  10
-16.1
+12.4685
  20
-8.2315
+16.5
  30
 0.0
  11
-15.8
+12.4685
  21
-8.2315
+16.8
  31
 0.0
   0
@@ -8397,19 +8421,19 @@ LINE
 100
 AcDbEntity
   8
-claytime_box v5_bottom_outsideCutPath
+claytime_box v7_right_outsideCutPath
 100
 AcDbLine
  10
-16.1
+15.5
  20
-6.7685
+12.0185
  30
 0.0
  11
-16.1
+15.2
  21
-5.5
+12.0185
  31
 0.0
   0
@@ -8421,19 +8445,19 @@ LINE
 100
 AcDbEntity
   8
-claytime_box v5_bottom_outsideCutPath
+claytime_box v7_right_outsideCutPath
 100
 AcDbLine
  10
-24.7575
+15.5
  20
-5.2
+14.9445
  30
 0.0
  11
-24.7575
+15.2
  21
-5.5
+14.9445
  31
 0.0
   0
@@ -8445,43 +8469,19 @@ LINE
 100
 AcDbEntity
   8
-claytime_box v5_bottom_outsideCutPath
+claytime_box v7_right_outsideCutPath
 100
 AcDbLine
  10
-26.40000000000001
+12.4685
  20
-8.2315
+16.8
  30
 0.0
  11
-26.1
+11.2
  21
-8.2315
- 31
-0.0
-  0
-LINE
-  5
-186
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_bottom_outsideCutPath
-100
-AcDbLine
- 10
-26.40000000000001
- 20
-6.7685
- 30
-0.0
- 11
-26.40000000000001
- 21
-8.2315
+16.8
  31
 0.0
   0
@@ -8493,19 +8493,19 @@ LINE
 100
 AcDbEntity
   8
-claytime_box v5_bottom_outsideCutPath
+claytime_box v7_bottom_outsideCutPath
 100
 AcDbLine
  10
-23.2945
+25.6445
  20
-9.5
+7.318500000000001
  30
 0.0
  11
-21.8315
+23.2445
  21
-9.5
+7.318500000000001
  31
 0.0
   0
@@ -8517,19 +8517,19 @@ LINE
 100
 AcDbEntity
   8
-claytime_box v5_bottom_outsideCutPath
+claytime_box v7_bottom_outsideCutPath
 100
 AcDbLine
  10
-21.8315
+23.2445
  20
-9.5
+7.318500000000001
  30
 0.0
  11
-21.8315
+23.2445
  21
-9.8
+6.7185
  31
 0.0
   0
@@ -8541,19 +8541,19 @@ LINE
 100
 AcDbEntity
   8
-claytime_box v5_bottom_outsideCutPath
+claytime_box v7_bottom_outsideCutPath
 100
 AcDbLine
  10
-21.8315
+17.4425
  20
 5.5
  30
 0.0
  11
-23.2945
+17.4425
  21
-5.5
+5.2
  31
 0.0
   0
@@ -8565,19 +8565,19 @@ LINE
 100
 AcDbEntity
   8
-claytime_box v5_bottom_outsideCutPath
+claytime_box v7_bottom_outsideCutPath
 100
 AcDbLine
  10
-18.9055
+16.1
  20
-5.5
+8.2315
  30
 0.0
  11
-20.3685
+15.8
  21
-5.5
+8.2315
  31
 0.0
   0
@@ -8589,31 +8589,7 @@ LINE
 100
 AcDbEntity
   8
-claytime_box v5_bottom_outsideCutPath
-100
-AcDbLine
- 10
-24.7575
- 20
-5.5
- 30
-0.0
- 11
-26.1
- 21
-5.5
- 31
-0.0
-  0
-LINE
-  5
-18C
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_bottom_outsideCutPath
+claytime_box v7_bottom_outsideCutPath
 100
 AcDbLine
  10
@@ -8631,25 +8607,49 @@ AcDbLine
   0
 LINE
   5
+18C
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_bottom_outsideCutPath
+100
+AcDbLine
+ 10
+24.7575
+ 20
+9.5
+ 30
+0.0
+ 11
+24.7575
+ 21
+9.8
+ 31
+0.0
+  0
+LINE
+  5
 18D
 330
 70
 100
 AcDbEntity
   8
-claytime_box v5_bottom_outsideCutPath
+claytime_box v7_bottom_outsideCutPath
 100
 AcDbLine
  10
-16.1
+18.9055
  20
 9.5
  30
 0.0
  11
-16.1
+18.9055
  21
-8.2315
+9.8
  31
 0.0
   0
@@ -8661,19 +8661,19 @@ LINE
 100
 AcDbEntity
   8
-claytime_box v5_bottom_outsideCutPath
+claytime_box v7_bottom_outsideCutPath
 100
 AcDbLine
  10
-15.8
+20.3685
  20
-8.2315
+9.8
  30
 0.0
  11
-15.8
+20.3685
  21
-6.7685
+9.5
  31
 0.0
   0
@@ -8685,19 +8685,19 @@ LINE
 100
 AcDbEntity
   8
-claytime_box v5_bottom_outsideCutPath
+claytime_box v7_bottom_outsideCutPath
 100
 AcDbLine
  10
-15.8
+21.8315
  20
-6.7685
+5.2
  30
 0.0
  11
-16.1
+21.8315
  21
-6.7685
+5.5
  31
 0.0
   0
@@ -8709,7 +8709,7 @@ LINE
 100
 AcDbEntity
   8
-claytime_box v5_bottom_outsideCutPath
+claytime_box v7_bottom_outsideCutPath
 100
 AcDbLine
  10
@@ -8733,17 +8733,17 @@ LINE
 100
 AcDbEntity
   8
-claytime_box v5_bottom_outsideCutPath
+claytime_box v7_bottom_outsideCutPath
 100
 AcDbLine
  10
-17.4425
+20.3685
  20
 5.5
  30
 0.0
  11
-17.4425
+20.3685
  21
 5.2
  31
@@ -8757,19 +8757,19 @@ LINE
 100
 AcDbEntity
   8
-claytime_box v5_bottom_outsideCutPath
+claytime_box v7_bottom_outsideCutPath
 100
 AcDbLine
  10
-20.3685
+26.1
  20
-5.2
+8.2315
  30
 0.0
  11
-21.8315
+26.1
  21
-5.2
+9.5
  31
 0.0
   0
@@ -8781,19 +8781,19 @@ LINE
 100
 AcDbEntity
   8
-claytime_box v5_bottom_outsideCutPath
+claytime_box v7_bottom_outsideCutPath
 100
 AcDbLine
  10
-20.3685
+23.2945
  20
-5.5
+9.5
  30
 0.0
  11
-20.3685
+21.8315
  21
-5.2
+9.5
  31
 0.0
   0
@@ -8805,17 +8805,17 @@ LINE
 100
 AcDbEntity
   8
-claytime_box v5_bottom_outsideCutPath
+claytime_box v7_bottom_outsideCutPath
 100
 AcDbLine
  10
-21.8315
+24.7575
  20
 5.2
  30
 0.0
  11
-21.8315
+24.7575
  21
 5.5
  31
@@ -8829,19 +8829,19 @@ LINE
 100
 AcDbEntity
   8
-claytime_box v5_bottom_outsideCutPath
+claytime_box v7_bottom_outsideCutPath
 100
 AcDbLine
  10
-23.2945
+24.7575
  20
 5.5
  30
 0.0
  11
-23.2945
+26.1
  21
-5.2
+5.5
  31
 0.0
   0
@@ -8853,7 +8853,7 @@ LINE
 100
 AcDbEntity
   8
-claytime_box v5_bottom_outsideCutPath
+claytime_box v7_bottom_outsideCutPath
 100
 AcDbLine
  10
@@ -8877,7 +8877,79 @@ LINE
 100
 AcDbEntity
   8
-claytime_box v5_bottom_outsideCutPath
+claytime_box v7_bottom_outsideCutPath
+100
+AcDbLine
+ 10
+26.40000000000001
+ 20
+8.2315
+ 30
+0.0
+ 11
+26.1
+ 21
+8.2315
+ 31
+0.0
+  0
+LINE
+  5
+198
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_bottom_outsideCutPath
+100
+AcDbLine
+ 10
+15.8
+ 20
+6.7685
+ 30
+0.0
+ 11
+16.1
+ 21
+6.7685
+ 31
+0.0
+  0
+LINE
+  5
+199
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_bottom_outsideCutPath
+100
+AcDbLine
+ 10
+18.9055
+ 20
+5.5
+ 30
+0.0
+ 11
+20.3685
+ 21
+5.5
+ 31
+0.0
+  0
+LINE
+  5
+19A
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_bottom_outsideCutPath
 100
 AcDbLine
  10
@@ -8895,85 +8967,85 @@ AcDbLine
   0
 LINE
   5
-198
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_bottom_outsideCutPath
-100
-AcDbLine
- 10
-26.1
- 20
-8.2315
- 30
-0.0
- 11
-26.1
- 21
-9.5
- 31
-0.0
-  0
-LINE
-  5
-199
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_bottom_outsideCutPath
-100
-AcDbLine
- 10
-26.1
- 20
-9.5
- 30
-0.0
- 11
-24.7575
- 21
-9.5
- 31
-0.0
-  0
-LINE
-  5
-19A
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_bottom_outsideCutPath
-100
-AcDbLine
- 10
-24.7575
- 20
-9.5
- 30
-0.0
- 11
-24.7575
- 21
-9.8
- 31
-0.0
-  0
-LINE
-  5
 19B
 330
 70
 100
 AcDbEntity
   8
-claytime_box v5_bottom_outsideCutPath
+claytime_box v7_bottom_outsideCutPath
+100
+AcDbLine
+ 10
+26.1
+ 20
+9.5
+ 30
+0.0
+ 11
+24.7575
+ 21
+9.5
+ 31
+0.0
+  0
+LINE
+  5
+19C
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_bottom_outsideCutPath
+100
+AcDbLine
+ 10
+15.8
+ 20
+8.2315
+ 30
+0.0
+ 11
+15.8
+ 21
+6.7685
+ 31
+0.0
+  0
+LINE
+  5
+19D
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_bottom_outsideCutPath
+100
+AcDbLine
+ 10
+21.8315
+ 20
+5.5
+ 30
+0.0
+ 11
+23.2945
+ 21
+5.5
+ 31
+0.0
+  0
+LINE
+  5
+19E
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_bottom_outsideCutPath
 100
 AcDbLine
  10
@@ -8991,97 +9063,25 @@ AcDbLine
   0
 LINE
   5
-19C
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_bottom_outsideCutPath
-100
-AcDbLine
- 10
-20.3685
- 20
-9.5
- 30
-0.0
- 11
-18.9055
- 21
-9.5
- 31
-0.0
-  0
-LINE
-  5
-19D
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_bottom_outsideCutPath
-100
-AcDbLine
- 10
-17.4425
- 20
-9.5
- 30
-0.0
- 11
-16.1
- 21
-9.5
- 31
-0.0
-  0
-LINE
-  5
-19E
-330
-70
-100
-AcDbEntity
-  8
-claytime_box v5_bottom_outsideCutPath
-100
-AcDbLine
- 10
-18.9055
- 20
-9.8
- 30
-0.0
- 11
-17.4425
- 21
-9.8
- 31
-0.0
-  0
-LINE
-  5
 19F
 330
 70
 100
 AcDbEntity
   8
-claytime_box v5_bottom_outsideCutPath
+claytime_box v7_bottom_outsideCutPath
 100
 AcDbLine
  10
-18.9055
+23.2945
  20
-9.5
+9.8
  30
 0.0
  11
-18.9055
+23.2945
  21
-9.8
+9.5
  31
 0.0
   0
@@ -9093,19 +9093,19 @@ LINE
 100
 AcDbEntity
   8
-claytime_box v5_bottom_outsideCutPath
+claytime_box v7_bottom_outsideCutPath
 100
 AcDbLine
  10
-20.3685
+23.2945
  20
-9.8
+5.5
  30
 0.0
  11
-20.3685
+23.2945
  21
-9.5
+5.2
  31
 0.0
   0
@@ -9117,7 +9117,55 @@ LINE
 100
 AcDbEntity
   8
-claytime_box v5_bottom_outsideCutPath
+claytime_box v7_bottom_outsideCutPath
+100
+AcDbLine
+ 10
+16.1
+ 20
+9.5
+ 30
+0.0
+ 11
+16.1
+ 21
+8.2315
+ 31
+0.0
+  0
+LINE
+  5
+1A2
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_bottom_outsideCutPath
+100
+AcDbLine
+ 10
+17.4425
+ 20
+5.2
+ 30
+0.0
+ 11
+18.9055
+ 21
+5.2
+ 31
+0.0
+  0
+LINE
+  5
+1A3
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_bottom_outsideCutPath
 100
 AcDbLine
  10
@@ -9135,13 +9183,133 @@ AcDbLine
   0
 LINE
   5
-1A2
+1A4
 330
 70
 100
 AcDbEntity
   8
-claytime_box v5_bottom_outsideCutPath
+claytime_box v7_bottom_outsideCutPath
+100
+AcDbLine
+ 10
+20.3685
+ 20
+9.5
+ 30
+0.0
+ 11
+18.9055
+ 21
+9.5
+ 31
+0.0
+  0
+LINE
+  5
+1A5
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_bottom_outsideCutPath
+100
+AcDbLine
+ 10
+18.9055
+ 20
+9.8
+ 30
+0.0
+ 11
+17.4425
+ 21
+9.8
+ 31
+0.0
+  0
+LINE
+  5
+1A6
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_bottom_outsideCutPath
+100
+AcDbLine
+ 10
+21.8315
+ 20
+9.5
+ 30
+0.0
+ 11
+21.8315
+ 21
+9.8
+ 31
+0.0
+  0
+LINE
+  5
+1A7
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_bottom_outsideCutPath
+100
+AcDbLine
+ 10
+16.1
+ 20
+6.7685
+ 30
+0.0
+ 11
+16.1
+ 21
+5.5
+ 31
+0.0
+  0
+LINE
+  5
+1A8
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_bottom_outsideCutPath
+100
+AcDbLine
+ 10
+20.3685
+ 20
+5.2
+ 30
+0.0
+ 11
+21.8315
+ 21
+5.2
+ 31
+0.0
+  0
+LINE
+  5
+1A9
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_bottom_outsideCutPath
 100
 AcDbLine
  10
@@ -9157,15 +9325,135 @@ AcDbLine
  31
 0.0
   0
-POINT
+LINE
   5
-1A4
+1AA
 330
 70
 100
 AcDbEntity
   8
-claytime_box v5_Sketch7
+claytime_box v7_bottom_outsideCutPath
+100
+AcDbLine
+ 10
+26.40000000000001
+ 20
+6.7685
+ 30
+0.0
+ 11
+26.40000000000001
+ 21
+8.2315
+ 31
+0.0
+  0
+LINE
+  5
+1AB
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_bottom_outsideCutPath
+100
+AcDbLine
+ 10
+17.4425
+ 20
+9.5
+ 30
+0.0
+ 11
+16.1
+ 21
+9.5
+ 31
+0.0
+  0
+LINE
+  5
+1AC
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_bottom_outsideCutPath
+100
+AcDbLine
+ 10
+23.2445
+ 20
+6.7185
+ 30
+0.0
+ 11
+25.6445
+ 21
+6.7185
+ 31
+0.0
+  0
+LINE
+  5
+1AD
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_bottom_outsideCutPath
+100
+AcDbLine
+ 10
+25.6445
+ 20
+6.7185
+ 30
+0.0
+ 11
+25.6445
+ 21
+7.318500000000001
+ 31
+0.0
+  0
+LINE
+  5
+1AE
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_bottom_outsideCutPath
+100
+AcDbLine
+ 10
+18.9055
+ 20
+5.2
+ 30
+0.0
+ 11
+18.9055
+ 21
+5.5
+ 31
+0.0
+  0
+POINT
+  5
+1B0
+330
+70
+100
+AcDbEntity
+  8
+claytime_box v7_Sketch7
 100
 AcDbPoint
  10
@@ -9245,11 +9533,11 @@ ACAD_VISUALSTYLE
   3
 ACDB_RECOMPOSE_DATA
 350
-1AD
+1B9
   3
 AcDbVariableDictionary
 350
-1A5
+1B1
   0
 DICTIONARY
   5
@@ -9677,7 +9965,7 @@ X-Ray
   0
 XRECORD
   5
-1AD
+1B9
 102
 {ACAD_REACTORS
 330
@@ -9697,7 +9985,7 @@ AcDbXrecord
   0
 DICTIONARY
   5
-1A5
+1B1
 102
 {ACAD_REACTORS
 330
@@ -9713,23 +10001,23 @@ AcDbDictionary
   3
 CANNOSCALE
 350
-1AA
+1B6
   3
 CMLEADERSTYLE
 350
-1A7
+1B3
   3
 CTABLESTYLE
 350
-1A6
+1B2
   3
 CVIEWDETAILSTYLE
 350
-1A8
+1B4
   3
 CVIEWSECTIONSTYLE
 350
-1A9
+1B5
   0
 ACDBDETAILVIEWSTYLE
   5
@@ -9737,7 +10025,7 @@ ACDBDETAILVIEWSTYLE
 102
 {ACAD_XDICTIONARY
 360
-1B0
+1BC
 102
 }
 102
@@ -11461,7 +11749,7 @@ ACDBSECTIONVIEWSTYLE
 102
 {ACAD_XDICTIONARY
 360
-1AE
+1BA
 102
 }
 102
@@ -11587,7 +11875,7 @@ TABLESTYLE
 102
 {ACAD_XDICTIONARY
 360
-1AB
+1B7
 102
 }
 102
@@ -18217,15 +18505,15 @@ AcDbSavedByObjectVersion
   0
 DICTIONARYVAR
   5
-1AA
+1B6
 102
 {ACAD_REACTORS
 330
-1A5
+1B1
 102
 }
 330
-1A5
+1B1
 100
 DictionaryVariables
 280
@@ -18235,15 +18523,15 @@ DictionaryVariables
   0
 DICTIONARYVAR
   5
-1A7
+1B3
 102
 {ACAD_REACTORS
 330
-1A5
+1B1
 102
 }
 330
-1A5
+1B1
 100
 DictionaryVariables
 280
@@ -18253,15 +18541,15 @@ STANDARD
   0
 DICTIONARYVAR
   5
-1A6
+1B2
 102
 {ACAD_REACTORS
 330
-1A5
+1B1
 102
 }
 330
-1A5
+1B1
 100
 DictionaryVariables
 280
@@ -18271,15 +18559,15 @@ STANDARD
   0
 DICTIONARYVAR
   5
-1A8
+1B4
 102
 {ACAD_REACTORS
 330
-1A5
+1B1
 102
 }
 330
-1A5
+1B1
 100
 DictionaryVariables
 280
@@ -18289,15 +18577,15 @@ Imperial24
   0
 DICTIONARYVAR
   5
-1A9
+1B5
 102
 {ACAD_REACTORS
 330
-1A5
+1B1
 102
 }
 330
-1A5
+1B1
 100
 DictionaryVariables
 280
@@ -18307,7 +18595,7 @@ Imperial24
   0
 DICTIONARY
   5
-1B0
+1BC
 330
 6B
 100
@@ -18319,7 +18607,7 @@ AcDbDictionary
   3
 ACAD_XREC_ROUNDTRIP
 360
-1B1
+1BD
   0
 DICTIONARY
   5
@@ -18431,7 +18719,7 @@ SPECULARTILE
   0
 DICTIONARY
   5
-1AE
+1BA
 330
 69
 100
@@ -18443,11 +18731,11 @@ AcDbDictionary
   3
 ACAD_XREC_ROUNDTRIP
 360
-1AF
+1BB
   0
 DICTIONARY
   5
-1AB
+1B7
 330
 65
 100
@@ -18459,19 +18747,19 @@ AcDbDictionary
   3
 ACAD_ROUNDTRIP_2008_TABLESTYLE_CELLSTYLEMAP
 360
-1AC
+1B8
   0
 XRECORD
   5
-1B1
+1BD
 102
 {ACAD_REACTORS
 330
-1B0
+1BC
 102
 }
 330
-1B0
+1BC
 100
 AcDbXrecord
 280
@@ -18847,15 +19135,15 @@ AcDbXrecord
   0
 XRECORD
   5
-1AF
+1BB
 102
 {ACAD_REACTORS
 330
-1AE
+1BA
 102
 }
 330
-1AE
+1BA
 100
 AcDbXrecord
 280
@@ -18871,15 +19159,15 @@ FLAGS
   0
 CELLSTYLEMAP
   5
-1AC
+1B8
 102
 {ACAD_REACTORS
 330
-1AB
+1B7
 102
 }
 330
-1AB
+1B7
 100
 AcDbCellStyleMap
  90
