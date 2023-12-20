@@ -21,6 +21,7 @@ The following hardware was used in this project:
 - **Copper wires (sleeved)** (in black, red, etc.)
 - 3 **10k Ohm resistors**
 - **Proto/strip board**
+- **Header pins male & female**
 
 ### Dependencies
 The following dependencies must be installed for this project to work:
