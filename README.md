@@ -93,6 +93,10 @@ for (auto T: histogram){
 
 To ensure that there was a mode in the first place, which wouldn't exist if all the temperature values in the array were different from one another, the values were normalized by rounding them to the nearest integer.
 
+### WiFi and connectivity
+
+The device can work without WiFi, however if you want to display data collected in a webpage served from the ESP8266 (see below section) you will need to set this up. The code has already been written into the ```startWiFi()``` function, all you need to do is set up up to two WiFi networks by entering their SSIDs and passwords into a file named ```arduino_secrets.h```, which will be imported into the main code if you place it next to the main .ino file. If you wish to add more than two WiFi networks, you will need to modify the code slightly. After importing the ssid and password variable pairs for your additional networks into the main .ino file, you then need to call the ```wifiMulti.addAP()``` function once more for every additional WiFi network. Note that the code loops through the known WiFi networks you have assigned so if you assign a large list of WiFi networks, it may take some time to connect to the internet.
+
 ## Prototyping the board
 
 A PCB or maker strip board was considered essential to the project as the final device was envisioned to be quite small and compact as a potential consumer product. To achieve this, the mess of wires and the breadboard had to be miniaturised to fit into a relatively small enclosure. The most reasonable way to prototype this is to use a strip board, which has copper connections running in parallel strips along a board. New connections can be made by soldering wires from one strip to another and individual lengths of each strip can also be isolated by breaking the copper channel using a drill bit in a pin vise or another similar tool. In the image below for example, the pins on each side of the Feather Huzzah are isolated from each other using this technique:
@@ -170,10 +174,19 @@ ptr += "</html>\n";
 ```
 The Google fonts website (https://fonts.google.com/) was linked into the HTML file to provide the Silkscreen font, which felt like it would work well visually with the robot face formed by the sensor ports in the front face of the enclosure. To provide some illustration and visual interest, a simple drawing of a pot, drawn from scratch, was also embedded in the webpage.
 
+To view this webpage on another device (connected to the same WiFi network) you will need to enter the device IP address (printed in the serial monitor) into a web browser. The webpage will be visible at that address.
+
 ### Reading the lights
 
+The Neopixel strip provides an ambient indicator of what is being sensed from the clay environment:
+- Orange coloured LEDS indicate very dry air as read from the DHT22 (less than 20% Relative Humidity)
+- Yellow coloured LEDs indicate moderately dry conditions (20 to 40% RH)
+- Blue LEDs indicate humid conditions (greater than 40% RH)
+
+The number of LEDs lit up out of the strip of 8 LEDs available indicates how dry the clay is. For example, if the sensors indicate the clay is most likely 50% dry, 4 out of 8 of the LEDs will be lit up.
+
 ## Future implementations
-- Simple LCD screen to show the thermal camera output in visual form, as well as display the device's IP address so that a user can browse to it to see the full set of data being collected.
+- Simple LCD screen to show the thermal camera output in visual form, as well as display the device's IP address so that a user can browse to the webpage with the data output without needing to first connect the device to a computer to read the IP address off from the serial monitor
 - Vibration motor/ buzzer, which could be used to indicate when the clay is done and dry.
 - A dedicated PCB so that the device USB port can be placed at a more convenient location on its side.
 
