@@ -8,7 +8,7 @@ _PotteryProgress: The Smart Clay Timer/Sensor_
 
 ![IMG_6637](https://github.com/ethmacc/CASA0016_smart_clay_timer/assets/60006290/0089a92f-b200-4ee0-b7b1-24000745c1bd)
 
-_Inital concept sketch. Note the differences in final colours used and the original position of the DHT22 sensor_
+_Inital concept sketch. Note the differences in final LED colours used and the original position of the DHT22 sensor_
 
 ## Materials and dependencies
 ### Materials
