@@ -180,16 +180,18 @@ void readTemp() {
       clay_temp = T.first/2; 
 
       Serial.print("The temp lower lim is: ");
-      Serial.println(round((temp-6)*2));    
+      Serial.println(round((temp-4)*2));    
 
       Serial.print("The temp upper lim is: ");
       Serial.println(round(temp*2));      
 
-      int T_constrain = constrain(T.first, round((temp-6)*2), round(temp*2) );
-      perc_dry = (T_constrain - round((temp - 6) * 2) )/ 12 * 100;
+      Serial.println(T.first);      
+
+      int T_constrain = constrain(T.first, round((temp-4)*2), round(temp*2) );
+      perc_dry = (T_constrain - round((temp - 4) * 2) )/ 8 * 100;
       Serial.print("Percentage dry: ");
       Serial.println(perc_dry);      
-      int i = map(T_constrain, round((temp-6)*2), round(temp*2), 1, 8);
+      int i = map(T_constrain, round((temp-4)*2), round(temp*2), 1, 8);
 
       pixels.fill(colour, 0, i);
       pixels.show();
