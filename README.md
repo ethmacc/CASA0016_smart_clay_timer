@@ -135,6 +135,8 @@ To secure the ultrasonic sensor and the Neopixel strip to the enclosure body, 2M
 
 The ESP8266 can be set up as a server to host a simple webpage (https://lastminuteengineers.com/esp8266-dht11-dht22-web-server-tutorial/).
 
+![L1000192](https://github.com/ethmacc/CASA0016_smart_clay_timer/assets/60006290/451869b7-2f43-4df8-9b8c-bb83e3bc3159)
+
 <img height="500" alt="ESP8266 webpage" src="https://github.com/ethmacc/CASA0016_smart_clay_timer/assets/60006290/51db1c8b-e9ad-4b48-aa8c-53d2612b09ee">
 
 The HTML code for the webpage can be found in the main arduino file itself:
